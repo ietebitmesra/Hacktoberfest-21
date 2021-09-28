@@ -32,12 +32,12 @@ To earn your Hacktoberfest tee or tree reward, you must register and make four v
  
  # Prize distribution criteria
 
- - First 5 contributors who have made PRs in all 3 mentioned task
+ - First 5 contributors who have made pull requests in all 3 mentioned tasks.
 
  - Winners will be selected on the basis of
-     - FCFS
+     - First come first serve (FCFS)
      - QUALITY OF CODE
 
- - Points will be allotted for each task and highest scorer's will  be selected as winners Marks distribution criteria will be mentioned in detailed in respective task readme.md
+ - Points will be allotted for each task and highest scorers will be selected as winners. Marks distribution criteria will be mentioned in detail in respective task's `readme.md`
 
  - All decisions made by IETE will be final and binding, no changes will be entertained after the result declaration.
