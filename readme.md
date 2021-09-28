@@ -9,19 +9,35 @@
 
  <b>Repo Link : to be updated soon</b>
 
- ### <b>What is Hacktoberfest?</b>
+ # <b>What is Hacktoberfest?</b>
 
  A month-long celebration from October 1st to October 31st presented by Digital Ocean and DEV Community collaborated with GitHub to get people involved in Open Source. Create your very first pull request to any public repository on GitHub and contribute to the open-source developer community.
 
  https://hacktoberfest.digitalocean.com/
 
- ### Rules
+ # Rules
 To earn your Hacktoberfest tee or tree reward, you must register and make four valid pull requests (PRs) between October 1-31 (in any time zone). PRs can be made to participating public repos on GitHub, those that have the Hacktoberfest topic. If a maintainer reports your pull request as spam or behavior not in line with the project’s code of conduct, you will be ineligible to participate. This year, the first 70,000 participants who successfully complete the challenge will be eligible to receive a prize.
 
- <b>Read the participation details to learn how to earn your Hacktoberfest tee or tree reward. </b>
+ 
+- <b>Read the participation details to learn how to earn your Hacktoberfest tee or tree reward. </b>
 
- #### Task 1: Introduce yourself
+- <b>Those who have not registered yet for hacktoberfest can get themselves registered <a href="https://hacktoberfest.digitalocean.com/register">HERE</a></b>
+ <hr>
+ 
+ # Task 1: Introduce yourself
+ Let's begin by getting acquainted with contributors over the globe. Contribute in this fun task, where you get to introduce yourself in the dev way!
+ # Task 2: coming soon
+ # Task 3 : coming soon
+ <hr>
+ 
+ # Prize distribution criteria
 
- #### Task 2: coming soon
+ - First 5 contributors who have made PRs in all 3 mentioned task
 
- #### Task 3 : coming soon
+ - Winners will be selected on the basis of
+     - FCFS
+     - QUALITY OF CODE
+
+ - Points will be allotted for each task and highest scorer's will  be selected as winners Marks distribution criteria will be mentioned in detailed in respective task readme.md
+
+ - All decisions made by IETE will be final and binding, no changes will be entertained after the result declaration.
