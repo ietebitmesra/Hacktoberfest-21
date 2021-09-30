@@ -39,9 +39,11 @@ Are you a binge watcher? Well we've created this task specially for you so that 
 
  <hr>
  
- ![Prizes](https://raw.githubusercontent.com/sakpab2602/Hacktoberfest-21/master/Task1/img/prizes.jpeg)
+ 
 
 # Prizes
+
+![Prizes](https://raw.githubusercontent.com/sakpab2602/Hacktoberfest-21/master/Task1/img/prizes.jpeg)
 
 This time around we have different prizes for the top 3 contributors who will be judged on the basis of points distribution criteria in each task!
 The special prizes include : -
