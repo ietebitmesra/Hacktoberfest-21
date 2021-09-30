@@ -36,28 +36,23 @@ We would also like to add support for Movies in our app, Find and implement suit
 12. Make UI better
 
 13. Make application responsive.
+
 14. Add your favourite tv-series in explore tab :)
 
 
 **Optional Feature:**
 
-1. Add User authentication
+1. Add summary for each episode
 
-2. Add watch list feature
+2. Add date every episode air.
 
-3. Add recommendation feature
+3. Present all cast along with photos in cast tag
 
-4. Add summary for each episode
+4. Include other images related to show in gallery tab
 
-5. Add date every episode air.
+5. Show the platform where the show/movies are streaming
 
-6. Present all cast along with photos in cast tag
-
-7. Include other images related to show in gallery tab
-
-8. Show the platform where the show/movies are streaming
-
-9. Link to YouTube trailer.
+6. Link to YouTube trailer.
 
 **Note:** 
 1) Users may open their own issues and also can implement any other awesome feature if they wish(as long as it is relevant to the project).
