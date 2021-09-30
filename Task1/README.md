@@ -61,7 +61,7 @@
 function YourName() {
     document.querySelector('.yourName-name').innerText="Enter your Name";
     document.querySelector('.yourName-Bio').innerText="Enter your Bio";
-    document.querySelector('.yourName-Pic').style.backgroundImage="url('./img/yourName.jpg')";
+    document.querySelector('.yourName-Pic').style.backgroundImage="url('./img/yourUsername.jpg')";
     document.querySelector('.yourName-Description').innerText="your Description";
     document.querySelector('.yourName-Portfolio').attributes[1].nodeValue="your Portfolio URL";
 }
