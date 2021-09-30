@@ -48,6 +48,9 @@ The special prizes include : -
 1. Smart-watches
 2. Ear buds
 3. Bags
+
+**To be eligible for prizes register <a href="http://bit.ly/hacktober2021">HERE</a>**
+
  # Prize distribution criteria
 
 - First 5 contributors who have made pull requests in all 3 mentioned tasks.
