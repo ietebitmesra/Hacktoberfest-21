@@ -1,8 +1,8 @@
 
-function AdityaDubey() {
-    document.querySelector('.AdityaDubey-name').innerText="AdityaDubey";
-    document.querySelector('.AdityaDubey-Bio').innerText="Strive until you succeed";
-    document.querySelector('.AdityaDubey-Pic').style.backgroundImage="url('./img/AD.jpg')";
-    document.querySelector('.AdityaDubey-Description').innerText="Competitive Programmer";
-    document.querySelector('.AdityaDubey-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/dubeyaditya6232/";
+function RavishRaj() {
+    document.querySelector('.RavishRaj-name').innerText="Ravish Raj";
+    document.querySelector('.RavishRaj-Bio').innerText="There are two ways to write error free programmers : only the third one works";
+    document.querySelector('.RavishRaj-Pic').style.backgroundImage="url('./img/ravishraj.jpg')";
+    document.querySelector('.RavishRaj-Description').innerText="Competitive Programmer and Web Developer";
+    document.querySelector('.RavishRaj-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/ravish-raj-tiwary-9356831ba/";
 }
