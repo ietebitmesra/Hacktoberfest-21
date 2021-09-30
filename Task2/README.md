@@ -47,7 +47,7 @@
 
 ### 4. Send a PR with `Task2-yourUserName` and wait for it to get merged. 
 
-### 5. View Your contribution at: https://github.com/ietebitmesra/Hacktoberfest-21/Task2/your-username
+### 5. View Your contribution at: `https://ietebitmesra.github.io/Hacktoberfest-21/Task2/{your-username}`
 ### 5. Points Distribution
 
 Complete the above mentioned tasks properly, as these are mandatory tasks which will count towards your score for Task2.
