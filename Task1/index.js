@@ -1,8 +1,8 @@
 
-function AdityaDubey() {
-    document.querySelector('.AdityaDubey-name').innerText="AdityaDubey";
-    document.querySelector('.AdityaDubey-Bio').innerText="Strive until you succeed";
-    document.querySelector('.AdityaDubey-Pic').style.backgroundImage="url('./img/AD.jpg')";
-    document.querySelector('.AdityaDubey-Description').innerText="Competitive Programmer";
-    document.querySelector('.AdityaDubey-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/dubeyaditya6232/";
+function SarangGupta() {
+    document.querySelector('.SarangGupta-name').innerText = "Sarang Gupta";
+    document.querySelector('.SarangGupta-Bio').innerText = "The best way to predict your future is to create it";
+    document.querySelector('.SarangGupta-Pic').style.backgroundImage = "url('./img/SarangGupta.jpg')";
+    document.querySelector('.SarangGupta-Description').innerText = "Developer | Problem Solver";
+    document.querySelector('.SarangGupta-Portfolio').attributes[1].nodeValue = "https://www.linkedin.com/in/sarang-gupta-6b0aa31b7/";
 }
