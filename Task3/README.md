@@ -92,7 +92,7 @@ Idea images:
 
 **Congratulations !!** **🥳**
 
-View Your contribution at: [https://ietebitmesra.github.io/Hacktoberfest-21/Task3/index.html](https://ietebitmesra.github.io/HacktoberFest-2020/Task3/index.html)
+View Your contribution at: https://ietebitmesra.github.io/Hacktoberfest-21/Task3/
 
 ## Points distribution
 
