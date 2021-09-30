@@ -74,7 +74,7 @@ Make sure to write all your details in the space provided.
 
 ### 4. Send a PR with `Task1-yourUserName` and wait for it to get merged. 
 
-View Your contribution at: https://github.com/ietebitmesra/Hacktoberfest-21/Task1/
+View Your contribution at: https://ietebitmesra.github.io/Hacktoberfest-21/Task1/
 
 ### 5. Points Distribution
 
