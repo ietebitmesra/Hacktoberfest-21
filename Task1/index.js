@@ -15,5 +15,12 @@ function PratikButani() {
     document.querySelector('.PratikButani-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/pratikbutani/";
 }
 
-
-
+// code by Shivam kumar, starts from here 
+function Shivam_kumar() {
+    document.querySelector('.Shivam_kumar-name').innerText="Shivam Kumar";
+    document.querySelector('.Shivam_kumar-Bio').innerText="If you are curious ,Then you are alive";
+    document.querySelector('.Shivam_kumar-Pic').style.backgroundImage="url('./img/Shivam_kumar.jpg')";
+    document.querySelector('.Shivam_kumar-Description').innerText="Student Developer";
+    document.querySelector('.Shivam_kumar-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/shivam-kumar-96ab49179/";
+}
+// code ends :)
