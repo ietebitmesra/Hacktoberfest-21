@@ -71,3 +71,11 @@ function HritikChaudhary() {
     document.querySelector('.HritikChaudhary-Description').innerText="Web Developer";
     document.querySelector('.HritikChaudhary-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/hritik-c-0588b999/";
 }
+function Riya() {
+  document.querySelector('.riya-name').innerText="Riya Singh";
+  document.querySelector('.riya-Bio').innerText="Finding the stars within yourself,I promise they exist.";
+  document.querySelector(".Riya's-Pic").style.backgroundImage="url('./img/Riya.jpeg')";
+  document.querySelector('.riya-Description').innerText="tech freak";
+  document.querySelector('.riya-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/riya-singh-779786205";
+}
+
