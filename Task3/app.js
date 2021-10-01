@@ -39,24 +39,24 @@ form.addEventListener('submit', async (e)=>{
     img.src = image;
     const h1 = document.createElement('H1');
     h1.innerText = name;
-    const p = document.createElement('p');
-    p.innerText = summary;
+    const p1 = document.createElement('p');
+    p1.innerText = summary;
     const p2 = document.createElement('p');
     p2.innerText = rating;
 
     // STYLE CREATED ELEMENTS HERE
     h1.style.fontSize = '50px';
 
-    p.style.fontFamily= 'Courgette, cursive';
-    p.style.fontSize= '22px';
-    p.style.fontWeight= '100'
+    p1.style.fontFamily= 'Courgette, cursive';
+    p1.style.fontSize= '22px';
+    p1.style.fontWeight= '100'
 
     p2.style.fontSize = '20px';
     
     // APPEND ELEMENTS TO WEB PAGE
     resultDiv.append(img)
     resultDiv.append(h1)
-    resultDiv.append(p)
+    resultDiv.append(p1)
     resultDiv.append(p2)
 
     form.reset();
