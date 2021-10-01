@@ -2,64 +2,62 @@
 /* Give proper spacing and styling to components */
 /* Use Proper Fonts */
 body {
-    padding-top: 70px;
-    margin: 0;
-    background-color: #2D6967 ;
+  padding-top: 70px;
+  margin: 0;
+  background-color: #2D6967 ;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
   }
-  @media (max-width: 979px) {
-    body {
-      padding-top: 0px;
-    }
-  }
+}
 .navbar{
     background-color: #2D6967 ;
 }
 
 .navbar-brand{
-    color: white;
+  color: white;
 }
 
 .navbar-nav li a{
-    color: white;
+  color: white;
 }
 
 .main-area{
-    display: flex;
-    height: 80vh;
+  display: flex;
+  height: 80vh;
 }
 
 #searchBar{
-    margin-top: 20vh;
+  margin-top: 20vh;
 }
 
 .container1{
-  height: 90%;
-  width: 90%;
-  margin: 40px;
-  padding: 30px;
-
+height: 90%;
+width: 90%;
+margin: 40px;
+padding: 30px;
 border-radius: 40px;
 border-style: solid;
 border-color: black;
 }
 
 .container-fluid{
-  height: 90%;
-  width: 90%;
-  margin-top: 40px;
-  padding: 30px;
-
-  border-radius: 40px;
-  background:  #e6e7ee; 
-  box-shadow: 3px 3px 6px #b8b9be,-3px -3px 6px #fff;
+height: 90%;
+width: 90%;
+margin-top: 40px;
+padding: 30px;
+border-radius: 40px;
+background:  #e6e7ee; 
+box-shadow: 3px 3px 6px #b8b9be,-3px -3px 6px #fff;
 }
 
 .card{
-  border-radius: 20px;
-  /* box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff; */
-  background-color: #48A9A6;
-  margin-top: 10px;
-  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+border-radius: 20px;
+/* box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff; */
+background-color: #48A9A6;
+margin-top: 10px;
+/* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
 }
 
 .card-img, .card-img-top{
