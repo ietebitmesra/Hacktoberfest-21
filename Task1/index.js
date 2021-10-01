@@ -15,5 +15,14 @@ function PratikButani() {
     document.querySelector('.PratikButani-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/pratikbutani/";
 }
 
+function Aini() {
+    document.querySelector('.Aini-name').innerText="Ain Fatima";
+    document.querySelector('.Aini-Bio').innerText="Always aiming to be a rainbow at the end of a thunderstorm.";
+    document.querySelector('.Aini-Pic').style.backgroundImage="url('./img/clay09.jpg')";
+    document.querySelector('.Aini-Description').innerText="Tech-enthusiatic";
+    document.querySelector('.Aini-Portfolio').attributes[1].nodeValue="https://clary09.github.io/ieee_portfolio/";
+}
+
+
 
 
