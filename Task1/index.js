@@ -17,6 +17,14 @@ function SHIVAM1422000() {
 
 }
 
+function mayukh() {
+  document.querySelector('.mayukh-name').innerText="Mayukh Pankaj";
+  document.querySelector('.mayukh-Bio').innerText="Dream n Work for it.";
+  document.querySelector('.mayukh-Pic').style.backgroundImage="url('./img/mayukh.jpg')";
+  document.querySelector('.mayukh-Description').innerText="Web Developer";
+  document.querySelector('.mayukh-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/mayukh-pankaj/";
+}
+
 function RavishRaj() {
   document.querySelector(".RavishRaj-name").innerText = "Ravish Raj";
   document.querySelector(".RavishRaj-Bio").innerText =
