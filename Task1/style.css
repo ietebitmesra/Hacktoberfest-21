@@ -22,7 +22,7 @@
 .head-section{
   box-shadow: 0 8px 6px -6px black;
   /* background-image: url("./img/banner.png"); */
-  color: #ffffff;
+  color: #c23e16;
   background-color: #000000;
   
 
@@ -304,5 +304,5 @@ position: relative;
 }
 
 .footer {
-  color: white;
+  color: #c23e16;
 }
