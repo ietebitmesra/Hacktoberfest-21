@@ -10,7 +10,7 @@ function DearDhruv() {
 function AKD() {
     document.querySelector('.AKD-name').innerText="Aditya Dubey";
     document.querySelector('.AKD-Bio').innerText="Strive until you succeed !!";
-    document.querySelector('.AKD-Pic').style.backgroundImage="url('./img/AD.jpg')";
+    document.querySelector('.AKD-Pic').style.backgroundImage="url('./img/AD.jpeg')";
     document.querySelector('.AKD-Description').innerText="Competitive Programmer";
     document.querySelector('.AKD-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/dubeyaditya6232/";
 }
@@ -21,5 +21,13 @@ function PratikButani() {
     document.querySelector('.PratikButani-Pic').style.backgroundImage="url('./img/pratikbutani.jpg')";
     document.querySelector('.PratikButani-Description').innerText="Flutter Developer";
     document.querySelector('.PratikButani-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/pratikbutani/";
+}
+
+function hardik() {
+    document.querySelector('.hardik-name').innerText="Hardik Gupta";
+    document.querySelector('.hardik-Bio').innerText="I love chicken wings";
+    document.querySelector('.hardik-Pic').style.backgroundImage="url('./img/hardik.jpeg')";
+    document.querySelector('.hardik-Description').innerText="Student Developer | Competetive Programmer";
+    document.querySelector('.hardik-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/hardikpedia/";
 }
 
