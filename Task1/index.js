@@ -74,7 +74,14 @@ function Shivam_kumar() {
     document.querySelector('.Shivam_kumar-Description').innerText="Student Developer";
     document.querySelector('.Shivam_kumar-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/shivam-kumar-96ab49179/";
 }
-// code ends :)
+
+function ShambhaviSingh() {
+    document.querySelector('.ShambhaviSingh-name').innerText="Shambhavi Singh";
+    document.querySelector('.ShambhaviSingh-Bio').innerText="An investment in knowledge always pays the best interest.";
+    document.querySelector('.ShambhaviSingh-Pic').style.backgroundImage="url('./img/shamvi-05.jpg')";
+    document.querySelector('.ShambhaviSingh-Description').innerText="A Motivated Fresher";
+    document.querySelector('.ShambhaviSingh-Portfolio').attributes[1].nodeValue="https://shamvi-05.github.io/Shamvi-050801/";
+}
 
 
 function Aini() {
