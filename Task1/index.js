@@ -15,5 +15,13 @@ function PratikButani() {
     document.querySelector('.PratikButani-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/pratikbutani/";
 }
 
+function ShubhamKumarMandal() {
+    document.querySelector('.ShubhamKumarMandal-name').innerText="Shubham Kumar Mandal";
+    document.querySelector('.ShubhamKumarMandal-Bio').innerText="Lost in search";
+    document.querySelector('.ShubhamKumarMandal-Pic').style.backgroundImage="url('./img/ShubhamKumarMandal.jpg')";
+    document.querySelector('.ShubhamKumarMandal-Description').innerText="Competitive Programmer";
+    document.querySelector('.ShubhamKumarMandal-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/shubham-kr23/";
+}
+
 
 
