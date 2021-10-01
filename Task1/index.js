@@ -94,7 +94,7 @@ function PratikButani() {
 
 
 
-// code by Shivam kumar, starts from here 
+// code by Shivam kumar, starts from here
 function Shivam_kumar() {
   document.querySelector('.Shivam_kumar-name').innerText = "Shivam Kumar";
   document.querySelector('.Shivam_kumar-Bio').innerText = "If you are curious ,Then you are alive";
@@ -236,3 +236,10 @@ function hardik() {
   document.querySelector('.hardik-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/hardikpedia/";
 }
 
+function jhoserpacheco() {
+    document.querySelector('.jhoserpacheco-name').innerText="Jhoser Pacheco";
+    document.querySelector('.jhoserpacheco-Bio').innerText="Competitive programmer, dreamer @jhoserpacheco";
+    document.querySelector('.jhoserpacheco-Pic').style.backgroundImage="url('./img/jhoserpacheco.jpg')";
+    document.querySelector('.jhoserpacheco-Description').innerText="Student System Engineer";
+    document.querySelector('.jhoserpacheco-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/jhoserpacheco/";
+}
