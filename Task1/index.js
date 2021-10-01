@@ -1,26 +1,36 @@
 function RavishRaj() {
-    document.querySelector('.RavishRaj-name').innerText="Ravish Raj";
-    document.querySelector('.RavishRaj-Bio').innerText="There are two ways to write error free programmers : only the third one works";
-    document.querySelector('.RavishRaj-Pic').style.backgroundImage="url('./img/ravishraj.jpg')";
-    document.querySelector('.RavishRaj-Description').innerText="Competitive Programmer and Web Developer";
-    document.querySelector('.RavishRaj-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/ravish-raj-tiwary-9356831ba/";
+  document.querySelector('.RavishRaj-name').innerText = "Ravish Raj";
+  document.querySelector('.RavishRaj-Bio').innerText = "There are two ways to write error free programmers : only the third one works";
+  document.querySelector('.RavishRaj-Pic').style.backgroundImage = "url('./img/ravishraj.jpg')";
+  document.querySelector('.RavishRaj-Description').innerText = "Competitive Programmer and Web Developer";
+  document.querySelector('.RavishRaj-Portfolio').attributes[1].nodeValue = "https://www.linkedin.com/in/ravish-raj-tiwary-9356831ba/";
 }
 
 function SarangGupta() {
-    document.querySelector('.SarangGupta-name').innerText = "Sarang Gupta";
-    document.querySelector('.SarangGupta-Bio').innerText = "The best way to predict your future is to create it";
-    document.querySelector('.SarangGupta-Pic').style.backgroundImage = "url('./img/SarangGupta.jpg')";
-    document.querySelector('.SarangGupta-Description').innerText = "Developer | Problem Solver";
-    document.querySelector('.SarangGupta-Portfolio').attributes[1].nodeValue = "https://www.linkedin.com/in/sarang-gupta-6b0aa31b7/";
+  document.querySelector('.SarangGupta-name').innerText = "Sarang Gupta";
+  document.querySelector('.SarangGupta-Bio').innerText = "The best way to predict your future is to create it";
+  document.querySelector('.SarangGupta-Pic').style.backgroundImage = "url('./img/SarangGupta.jpg')";
+  document.querySelector('.SarangGupta-Description').innerText = "Developer | Problem Solver";
+  document.querySelector('.SarangGupta-Portfolio').attributes[1].nodeValue = "https://www.linkedin.com/in/sarang-gupta-6b0aa31b7/";
 }
 
 function RohanSahana() {
-    document.querySelector('.RohanSahana-name').innerText="Rohan Sahana";
-    document.querySelector('.RohanSahana-Bio').innerText="Python and Java Developer, Machine Learning Enthusiast";
-    document.querySelector('.RohanSahana-Pic').style.backgroundImage="url('./img/RohanSahana.jpg')";
-    document.querySelector('.RohanSahana-Description').innerText="your Description";
-    document.querySelector('.RohanSahana-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/rohan-sahana-10120/";
+  document.querySelector('.RohanSahana-name').innerText = "Rohan Sahana";
+  document.querySelector('.RohanSahana-Bio').innerText = "Python and Java Developer, Machine Learning Enthusiast";
+  document.querySelector('.RohanSahana-Pic').style.backgroundImage = "url('./img/RohanSahana.jpg')";
+  document.querySelector('.RohanSahana-Description').innerText = "your Description";
+  document.querySelector('.RohanSahana-Portfolio').attributes[1].nodeValue = "https://www.linkedin.com/in/rohan-sahana-10120/";
 }
+
+function MayankeshJha() {
+  document.querySelector('.MayankeshJha-name').innerText = "Mayankesh Jha";
+  document.querySelector('.MayankeshJha-Bio').innerText = "A guy that converts caffeine into code!";
+  document.querySelector('.MayankeshJha-Pic').style.backgroundImage = "url('./img/MayankeshJha.jpg')";
+  document.querySelector('.MayankeshJha-Description').innerText = "Web developer || Competitive Programmer";
+  document.querySelector('.MayankeshJha-Portfolio').attributes[1].nodeValue = "https://www.linkedin.com/in/mayankesh-jha-15446b206";
+}
+
+
 
 function AKD() {
   document.querySelector(".AKD-name").innerText = "Aditya Dubey";
@@ -57,17 +67,17 @@ function SKP() {
     "https://www.linkedin.com/in/saketh-pabba-783a94194/";
 }
 function DearDhruv() {
-    document.querySelector('.DearDhruv-Name').innerText="Dhruv Patel";
-    document.querySelector('.DearDhruv-Bio').innerText="Tech Lead, Android Engineer, making lives better on @Instagram.";
-    document.querySelector('.DearDhruv-Pic').style.backgroundImage="url('./img/deardhruv.png')";
-    document.querySelector('.DearDhruv-Description').innerText="Tech Lead | Android Engineer";
-    document.querySelector('.DearDhruv-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/deardhruv/";
+  document.querySelector('.DearDhruv-Name').innerText = "Dhruv Patel";
+  document.querySelector('.DearDhruv-Bio').innerText = "Tech Lead, Android Engineer, making lives better on @Instagram.";
+  document.querySelector('.DearDhruv-Pic').style.backgroundImage = "url('./img/deardhruv.png')";
+  document.querySelector('.DearDhruv-Description').innerText = "Tech Lead | Android Engineer";
+  document.querySelector('.DearDhruv-Portfolio').attributes[1].nodeValue = "https://www.linkedin.com/in/deardhruv/";
 }
 
 function HritikChaudhary() {
-    document.querySelector('.HritikChaudhary-name').innerText="Hritik Chaudhary";
-    document.querySelector('.HritikChaudhary-Bio').innerText="The best view comes after the hardest climb!";
-    document.querySelector('.HritikChaudhary-pic').style.backgroundImage="url('./img/hritik.jpg')";
-    document.querySelector('.HritikChaudhary-Description').innerText="Web Developer";
-    document.querySelector('.HritikChaudhary-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/hritik-c-0588b999/";
+  document.querySelector('.HritikChaudhary-name').innerText = "Hritik Chaudhary";
+  document.querySelector('.HritikChaudhary-Bio').innerText = "The best view comes after the hardest climb!";
+  document.querySelector('.HritikChaudhary-pic').style.backgroundImage = "url('./img/hritik.jpg')";
+  document.querySelector('.HritikChaudhary-Description').innerText = "Web Developer";
+  document.querySelector('.HritikChaudhary-Portfolio').attributes[1].nodeValue = "https://www.linkedin.com/in/hritik-c-0588b999/";
 }
