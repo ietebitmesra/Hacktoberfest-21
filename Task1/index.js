@@ -74,7 +74,14 @@ function Shivam_kumar() {
     document.querySelector('.Shivam_kumar-Description').innerText="Student Developer";
     document.querySelector('.Shivam_kumar-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/shivam-kumar-96ab49179/";
 }
-// code ends :)
+
+function ShambhaviSingh() {
+    document.querySelector('.ShambhaviSingh-name').innerText="Shambhavi Singh";
+    document.querySelector('.ShambhaviSingh-Bio').innerText="An investment in knowledge always pays the best interest.";
+    document.querySelector('.ShambhaviSingh-Pic').style.backgroundImage="url('./img/shamvi-05.jpg')";
+    document.querySelector('.ShambhaviSingh-Description').innerText="A Motivated Fresher";
+    document.querySelector('.ShambhaviSingh-Portfolio').attributes[1].nodeValue="https://shamvi-05.github.io/Shamvi-050801/";
+}
 
 
 function Aini() {
@@ -94,7 +101,21 @@ function Aryan() {
     document.querySelector('.Aryan-Description').innerText="Web Developer";
     document.querySelector('.Aryan-Portfolio').attributes[1].nodeValue="https://aryan0472.github.io/Portfolio/";
 }
+function IamLucif3r(){
+    document.querySelector('.IamLucif3r-name').innerText="Anmol Singh Yadav";
+    document.querySelector('.IamLucif3r-Bio').innerText="Cybersecurity Researcher";
+    document.querySelector('.IamLucif3r-Pic').style.backgroundImage="url('./img/iamlucif3r.jpg')";
+    document.querySelector('.IamLucif3r-Description').innerText="I am a Cybersecurity Researcher & Bug Bounty Hunter, Interested in Digital Forensics.";
+    document.querySelector('.IamLucif3r-Portfolio').attributes[1].nodeValue="https://anmol-singh-yadav.github.io/   ";
+}
 
+function ShubhamKumarMandal() {
+    document.querySelector('.ShubhamKumarMandal-name').innerText="Shubham Kumar Mandal";
+    document.querySelector('.ShubhamKumarMandal-Bio').innerText="Lost in search";
+    document.querySelector('.ShubhamKumarMandal-Pic').style.backgroundImage="url('./img/ShubhamKumarMandal.jpg')";
+    document.querySelector('.ShubhamKumarMandal-Description').innerText="Competitive Programmer";
+    document.querySelector('.ShubhamKumarMandal-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/shubham-kr23/";
+}
 
 
 function SKP() {
