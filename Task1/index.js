@@ -94,7 +94,13 @@ function Aryan() {
     document.querySelector('.Aryan-Description').innerText="Web Developer";
     document.querySelector('.Aryan-Portfolio').attributes[1].nodeValue="https://aryan0472.github.io/Portfolio/";
 }
-
+function IamLucif3r(){
+    document.querySelector('.IamLucif3r-name').innerText="Anmol Singh Yadav";
+    document.querySelector('.IamLucif3r-Bio').innerText="Cybersecurity Researcher";
+    document.querySelector('.IamLucif3r-Pic').style.backgroundImage="url('./img/iamlucif3r.jpg')";
+    document.querySelector('.IamLucif3r-Description').innerText="I am a Cybersecurity Researcher & Bug Bounty Hunter, Interested in Digital Forensics.";
+    document.querySelector('.IamLucif3r-Portfolio').attributes[1].nodeValue="https://anmol-singh-yadav.github.io/   ";
+}
 
 
 function SKP() {
