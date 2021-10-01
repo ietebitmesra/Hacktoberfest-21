@@ -219,3 +219,20 @@ function Uday() {
   document.querySelector('.Uday-Description').innerText = "Web Developer";
 }
 
+function Soumya() {
+  document.querySelector('.Soumya-name').innerText="Soumya Agarwal";
+    document.querySelector('.Soumya-Bio').innerText="Learner and Programmer";
+    document.querySelector('.Soumya-Pic').style.backgroundImage="url('./img/Soumya.jpg')";
+    document.querySelector('.Soumya-Description').innerText="Web Developer";
+    document.querySelector('.Soumya-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/soumya-agarwal-828391200";
+}
+
+
+function hardik() {
+  document.querySelector('.hardik-name').innerText="Hardik Gupta";
+  document.querySelector('.hardik-Bio').innerText="I love chicken wings";
+  document.querySelector('.hardik-Pic').style.backgroundImage="url('./img/hardik.jpeg')";
+  document.querySelector('.hardik-Description').innerText="Student Developer | Competetive Programmer";
+  document.querySelector('.hardik-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/hardikpedia/";
+}
+
