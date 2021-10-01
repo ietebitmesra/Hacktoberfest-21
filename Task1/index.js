@@ -197,3 +197,10 @@ function KapilKungwani() {
     "https://www.linkedin.com/in/kapil-kungwani-kk1820/";
 }
 
+function Priyanshu() {
+  document.querySelector('.Priyanshu-name').innerText="Priyanshu";
+  document.querySelector('.Priyanshu-Bio').innerText="No matter where you go, there you are. I'm at JavaScript.";
+  document.querySelector('.Priyanshu-Pic').style.backgroundImage="url('./img/Priyanshu.jpg')";
+  document.querySelector('.Priyanshu-Description').innerText="Web Developer";
+  document.querySelector('.Priyanshu-Portfolio').attributes[1].nodeValue="https://twitter.com/Priyanshu769";
+}
