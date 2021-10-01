@@ -8,7 +8,6 @@
 
 - This repository is open to all members of the GitHub community. Any member can contribute to this project without being a collaborator. We encourage first time contributors, and also have interesting tasks for experienced developers.
 
-<b>Repo Link : to be updated soon</b>
 
 # <b>What is Hacktoberfest?</b> 😕
 
