@@ -14,6 +14,12 @@ function PratikButani() {
     document.querySelector('.PratikButani-Description').innerText="Flutter Developer";
     document.querySelector('.PratikButani-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/pratikbutani/";
 }
-
+function IamLucif3r(){
+    document.querySelector('.IamLucif3r-name').innerText="Anmol Singh Yadav";
+    document.querySelector('.IamLucif3r-Bio').innerText="Cybersecurity Researcher";
+    document.querySelector('.IamLucif3r-Pic').style.backgroundImage="url('./img/iamlucif3r.jpg')";
+    document.querySelector('.IamLucif3r-Description').innerText="I am a Cybersecurity Researcher & Bug Bounty Hunter, Interested in Digital Forensics.";
+    document.querySelector('.IamLucif3r-Portfolio').attributes[1].nodeValue="https://anmol-singh-yadav.github.io/   ";
+}
 
 
