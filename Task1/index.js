@@ -66,6 +66,17 @@ function PratikButani() {
 }
 
 
+// code by Shivam kumar, starts from here 
+function Shivam_kumar() {
+    document.querySelector('.Shivam_kumar-name').innerText="Shivam Kumar";
+    document.querySelector('.Shivam_kumar-Bio').innerText="If you are curious ,Then you are alive";
+    document.querySelector('.Shivam_kumar-Pic').style.backgroundImage="url('./img/Shivam_kumar.jpg')";
+    document.querySelector('.Shivam_kumar-Description').innerText="Student Developer";
+    document.querySelector('.Shivam_kumar-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/shivam-kumar-96ab49179/";
+}
+// code ends :)
+
+
 function Aini() {
     document.querySelector('.Aini-name').innerText="Ain Fatima";
     document.querySelector('.Aini-Bio').innerText="Always aiming to be a rainbow at the end of a thunderstorm.";
@@ -111,4 +122,5 @@ function HritikChaudhary() {
     document.querySelector('.HritikChaudhary-Description').innerText="Web Developer";
     document.querySelector('.HritikChaudhary-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/hritik-c-0588b999/";
 }
+
 
