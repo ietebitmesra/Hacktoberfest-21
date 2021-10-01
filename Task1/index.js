@@ -1,3 +1,11 @@
+function Uday() {
+  document.querySelector('.Uday-name').innerText="Uday Narayan Samanta";
+  document.querySelector('.Uday-Bio').innerText="It's not a bug -- it's an undocumented feature";
+  document.querySelector('.Uday-Pic').style.backgroundImage="url('./img/uday.jpg')";
+  document.querySelector('.Uday-Description').innerText="Web Developer";
+  document.querySelector('.Uday-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/uday-narayan-samanta-ba801020b/";
+}
+
 function RavishRaj() {
     document.querySelector('.RavishRaj-name').innerText="Ravish Raj";
     document.querySelector('.RavishRaj-Bio').innerText="There are two ways to write error free programmers : only the third one works";
