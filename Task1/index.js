@@ -1,5 +1,3 @@
-
-
 function AdityaDubey() {
     document.querySelector('.AdityaDubey-name').innerText="AdityaDubey";
     document.querySelector('.AdityaDubey-Bio').innerText="Strive until you succeed";
@@ -16,6 +14,7 @@ function SHIVAM1422000() {
     document.querySelector('.SHIVAM1422000-pic').style.backgroundImage="url('./img/SHIVAM1422000.jpg')";
     document.querySelector('.SHIVAM1422000-Description').innerText="A Passionate Web Developer";
     document.querySelector('.SHIVAM1422000-Portfolio').attributes[1].nodeValue="https://github.com/SHIVAM1422000";
+
 }
 
 function RavishRaj() {
@@ -195,6 +194,14 @@ function KapilKungwani() {
     "Competitive Programmer";
   document.querySelector(".KapilKungwani-Portfolio").attributes[1].nodeValue =
     "https://www.linkedin.com/in/kapil-kungwani-kk1820/";
+}
+
+
+function Uday() {
+  document.querySelector('.Uday-name').innerText="Uday Narayan Samanta";
+  document.querySelector('.Uday-Bio').innerText="It's not a bug -- it's an undocumented feature";
+  document.querySelector('.Uday-Pic').style.backgroundImage="url('./img/uday.jpg')";
+  document.querySelector('.Uday-Description').innerText="Web Developer";
 }
 
 function Priyanshu() {
