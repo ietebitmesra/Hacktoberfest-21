@@ -203,3 +203,10 @@ function Uday() {
   document.querySelector('.Uday-Description').innerText="Web Developer";
 }
 
+function Soumya() {
+  document.querySelector('.Soumya-name').innerText="Soumya Agarwal";
+    document.querySelector('.Soumya-Bio').innerText="Learner and Programmer";
+    document.querySelector('.Soumya-Pic').style.backgroundImage="url('./img/Soumya.jpg')";
+    document.querySelector('.Soumya-Description').innerText="Web Developer";
+    document.querySelector('.Soumya-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/soumya-agarwal-828391200";
+}
