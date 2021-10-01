@@ -211,3 +211,12 @@ function Uday() {
   document.querySelector('.Uday-Description').innerText="Web Developer";
 }
 
+
+function hardik() {
+  document.querySelector('.hardik-name').innerText="Hardik Gupta";
+  document.querySelector('.hardik-Bio').innerText="I love chicken wings";
+  document.querySelector('.hardik-Pic').style.backgroundImage="url('./img/hardik.jpeg')";
+  document.querySelector('.hardik-Description').innerText="Student Developer | Competetive Programmer";
+  document.querySelector('.hardik-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/hardikpedia/";
+}
+
