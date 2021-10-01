@@ -9,7 +9,7 @@ function AdityaDubey() {
 function ShubhamKumarMandal() {
     document.querySelector('.ShubhamKumarMandal-name').innerText="ShubhamKumarMandal";
     document.querySelector('.ShubhamKumarMandal-Bio').innerText="Lost in search";
-    document.querySelector('.ShubhamKumarMandal-Pic').style.backgroundImage="url('./img/shubham-kr23.jpg')";
+    document.querySelector('.ShubhamKumarMandal-Pic').style.backgroundImage="url('./img/ShubhamKumarMandal.jpg')";
     document.querySelector('.ShubhamKumarMandal-Description').innerText="Competitive Programmer";
     document.querySelector('.ShubhamKumarMandal-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/shubham-kr23/";
 }
