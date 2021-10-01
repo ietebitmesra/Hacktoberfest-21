@@ -28,7 +28,7 @@
           <div class="github-details">
             <div class="github-dp">
               <canvas
-               class="yourName-pic"
+               class="yourName-Pic"
                 width="150"
                 height="150"
                 style="background-image: url('#')"
