@@ -101,6 +101,15 @@ function Aryan() {
     document.querySelector('.Aryan-Description').innerText="Web Developer";
     document.querySelector('.Aryan-Portfolio').attributes[1].nodeValue="https://aryan0472.github.io/Portfolio/";
 }
+
+function PrabalJain() {
+    document.querySelector('.PrabalJain-name').innerText="Prabal Jain";
+    document.querySelector('.PrabalJain-Bio').innerText="Stay Focused";
+    document.querySelector('.PrabalJain-Pic').style.backgroundImage="url('./img/PrabalJain.jpg')";
+    document.querySelector('.PrabalJain-Description').innerText="Python Programmer && Problem Solver";
+    document.querySelector('.PrabalJain-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/prabaljainn/";
+}
+
 function IamLucif3r(){
     document.querySelector('.IamLucif3r-name').innerText="Anmol Singh Yadav";
     document.querySelector('.IamLucif3r-Bio').innerText="Cybersecurity Researcher";
@@ -116,7 +125,6 @@ function ShubhamKumarMandal() {
     document.querySelector('.ShubhamKumarMandal-Description').innerText="Competitive Programmer";
     document.querySelector('.ShubhamKumarMandal-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/shubham-kr23/";
 }
-
 
 function SKP() {
   document.querySelector(".SKP-name").innerText = "Saketh kumar Pabba";
