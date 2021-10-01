@@ -60,6 +60,5 @@ form.addEventListener('submit', async (e)=>{
     resultDiv.append(p2)
 
     form.reset();
-
-    
 })
+

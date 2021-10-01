@@ -12,7 +12,7 @@ body {
   }
 }
 .navbar{
-  background-color: #2D6967 ;
+    background-color: #2D6967 ;
 }
 
 .navbar-brand{
@@ -37,7 +37,6 @@ height: 90%;
 width: 90%;
 margin: 40px;
 padding: 30px;
-
 border-radius: 40px;
 border-style: solid;
 border-color: black;
@@ -48,7 +47,6 @@ height: 90%;
 width: 90%;
 margin-top: 40px;
 padding: 30px;
-
 border-radius: 40px;
 background:  #e6e7ee; 
 box-shadow: 3px 3px 6px #b8b9be,-3px -3px 6px #fff;
