@@ -14,6 +14,13 @@ function PratikButani() {
     document.querySelector('.PratikButani-Description').innerText="Flutter Developer";
     document.querySelector('.PratikButani-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/pratikbutani/";
 }
+function PrabalJain() {
+    document.querySelector('.PrabalJain-name').innerText="Prabal Jain";
+    document.querySelector('.PrabalJain-Bio').innerText="Stay Focused";
+    document.querySelector('.PrabalJain-Pic').style.backgroundImage="url('./img/PrabalJain.jpg')";
+    document.querySelector('.PrabalJain-Description').innerText="Python Programmer && Problem Solver";
+    document.querySelector('.PrabalJain-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/prabaljainn/";
+}
 
 
 
