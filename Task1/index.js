@@ -17,6 +17,14 @@ function SHIVAM1422000() {
 
 }
 
+function mayukh() {
+  document.querySelector('.mayukh-name').innerText="Mayukh Pankaj";
+  document.querySelector('.mayukh-Bio').innerText="Dream n Work for it.";
+  document.querySelector('.mayukh-Pic').style.backgroundImage="url('./img/mayukh.jpg')";
+  document.querySelector('.mayukh-Description').innerText="Web Developer";
+  document.querySelector('.mayukh-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/mayukh-pankaj/";
+}
+
 function RavishRaj() {
   document.querySelector(".RavishRaj-name").innerText = "Ravish Raj";
   document.querySelector(".RavishRaj-Bio").innerText =
@@ -210,3 +218,13 @@ function Soumya() {
     document.querySelector('.Soumya-Description').innerText="Web Developer";
     document.querySelector('.Soumya-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/soumya-agarwal-828391200";
 }
+
+
+function hardik() {
+  document.querySelector('.hardik-name').innerText="Hardik Gupta";
+  document.querySelector('.hardik-Bio').innerText="I love chicken wings";
+  document.querySelector('.hardik-Pic').style.backgroundImage="url('./img/hardik.jpeg')";
+  document.querySelector('.hardik-Description').innerText="Student Developer | Competetive Programmer";
+  document.querySelector('.hardik-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/hardikpedia/";
+}
+
