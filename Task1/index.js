@@ -201,4 +201,5 @@ function Uday() {
   document.querySelector('.Uday-Bio').innerText="It's not a bug -- it's an undocumented feature";
   document.querySelector('.Uday-Pic').style.backgroundImage="url('./img/uday.jpg')";
   document.querySelector('.Uday-Description').innerText="Web Developer";
+}
 
