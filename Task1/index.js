@@ -60,11 +60,11 @@ function SarangGupta() {
 function RohanSahana() {
   document.querySelector(".RohanSahana-name").innerText = "Rohan Sahana";
   document.querySelector(".RohanSahana-Bio").innerText =
-    "Python and Java Developer, Machine Learning Enthusiast";
+    "Never Give Up! Age is just a Number";
   document.querySelector(".RohanSahana-Pic").style.backgroundImage =
     "url('./img/RohanSahana.jpg')";
   document.querySelector(".RohanSahana-Description").innerText =
-    "your Description";
+    "Python and Java Developer | Machine Learning Enthusiast";
   document.querySelector(".RohanSahana-Portfolio").attributes[1].nodeValue =
     "https://www.linkedin.com/in/rohan-sahana-10120/";
 }
