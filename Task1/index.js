@@ -45,6 +45,17 @@ function PratikButani() {
     "https://www.linkedin.com/in/pratikbutani/";
 }
 
+
+function Aini() {
+    document.querySelector('.Aini-name').innerText="Ain Fatima";
+    document.querySelector('.Aini-Bio').innerText="Always aiming to be a rainbow at the end of a thunderstorm.";
+    document.querySelector('.Aini-Pic').style.backgroundImage="url('./img/clary09.jpg')";
+    document.querySelector('.Aini-Description').innerText="Tech-enthusiatic";
+    document.querySelector('.Aini-Portfolio').attributes[1].nodeValue="https://clary09.github.io/ieee_portfolio/";
+}
+
+
+
 function Aryan() {
     document.querySelector('.Aryan-name').innerText="Aryan";
     document.querySelector('.Aryan-Bio').innerText="Success without failures is a mirage";
@@ -52,6 +63,7 @@ function Aryan() {
     document.querySelector('.Aryan-Description').innerText="Web Developer";
     document.querySelector('.Aryan-Portfolio').attributes[1].nodeValue="https://aryan0472.github.io/Portfolio/";
 }
+
 
 
 function SKP() {
