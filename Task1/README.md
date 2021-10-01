@@ -7,7 +7,7 @@
 ###    (b) Clone the Repository into your machine
 ```$ cd Task1 ```
 
-### 1. Upload your image in `img folder` and rename as `yourusername.jpg`
+### 1. Upload your image in `img folder` and rename as `yourName.jpg`
 
 ### 2. Now, in index.html 
 
@@ -28,7 +28,7 @@
           <div class="github-details">
             <div class="github-dp">
               <canvas
-               class="yourName-pic"
+               class="yourName-Pic"
                 width="150"
                 height="150"
                 style="background-image: url('#')"
@@ -57,6 +57,8 @@
 ### 3. Now, in index.js
 
 ``` Copy below code and paste at bottom of the file 
+
+    .... other people code ....
 
 function YourName() {
     document.querySelector('.yourName-name').innerText="Enter your Name";
