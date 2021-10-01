@@ -40,7 +40,7 @@ function DearDhruv() {
     document.querySelector('.DearDhruv-Description').innerText="Tech Lead | Android Engineer";
     document.querySelector('.DearDhruv-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/deardhruv/";
 }
-=======
+
 function HritikChaudhary() {
     document.querySelector('.HritikChaudhary-name').innerText="Hritik Chaudhary";
     document.querySelector('.HritikChaudhary-Bio').innerText="The best view comes after the hardest climb!";
