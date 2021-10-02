@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&family=Stick&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbarr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    cursor: pointer;
+    top: 0;
+    height: 82px;
+}
+
+.nav-list {
+    width: 60%;
+    /* background-color: yellow; */
+    display: flex;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 4%
+}
+
+.nav-list li a:hover {
+    color: red;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: seashell;
+    font-size: 27px;
+    font-family: 'Stick', sans-serif;
+}
+
+.rightNav {
+    width: 40%;
+    /* background-color: darkgreen; */
+    text-align: right;
+}
+
+.logo {
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 35%;
+    /* height: 10%; */
+    border: 3px solid white;
+    border-radius: 200px;
+}
+
+#search {
+    padding: 1%;
+    font-size: 17px;
+    border-radius: 24px;
+}
+
+.background {
+    background: rgba(196, 13, 233, 0.7) url(Cool-Backgrounds-for-Mac-66-pictures.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    margin: auto;
+    height: 85%;
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+@media only screen and (max-width:1200px) {
+    .nav-list {
+        flex-direction: column;
+    }
+    .navbarr {
+        flex-direction: column;
+        height: 600px;
+        transition: all 0.7s ease-out;
+    }
+    .rightNav {
+        text-align: center;
+    }
+    #search {
+        width: 100%;
+    }
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 100%;
+        height: auto;
+        /* display: flex; */
+    }
+    .burger {
+        display: block;
+    }
+    .h-nav-resp {
+        height: 72px;
+    }
+    .v-class-resp {
+        opacity: 0;
+    }
+    .main-area {
+        display: flex;
+        height: 80vh;
+    }
+    #searchBar {
+        margin-top: 20vh;
+    }
+    .container1 {
+        height: 90%;
+        width: 90%;
+        margin: 40px;
+        padding: 30px;
+        border-radius: 40px;
+        border-style: solid;
+        border-color: black;
+    }
+    .container-fluid {
+        height: 90%;
+        width: 90%;
+        margin-top: 40px;
+        padding: 30px;
+        border-radius: 40px;
+        background: #e6e7ee;
+        box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+    }
+    .card {
+        border-radius: 20px;
+        /* box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff; */
+        background-color: #48A9A6;
+        margin-top: 10px;
+        /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+    }
+    .card-img,
+    .card-img-top {
+        border-radius: 20px;
+    }
+}
