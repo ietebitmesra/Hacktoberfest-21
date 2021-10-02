@@ -344,7 +344,7 @@ function RajGohil() {
     "https://www.linkedin.com/in/sarang-gupta-6b0aa31b7/";
 }
 
-function YourName() {
+function Ashishkumar() {
   document.querySelector(".Ashishkumar-name").innerText = "Ashish Kumar";
   document.querySelector(".Ashishkumar-Bio").innerText =
     "The world has always been a beautiful place to explore and learn.";
