@@ -380,6 +380,13 @@ function RutujaJagdale() {
     "https://www.linkedin.com/in/rutuja-jagdale-803a651b7/";
 }
 
+function JasveenSinghKohli() {
+    document.querySelector('.JasveenSinghKohli-name').innerText="Jasveen Singh Kohli";
+    document.querySelector('.JasveenSinghKohli-Bio').innerText="An enthusiastic learner and Tech Geek. Interested in devising better problem solving methods for challenging tasks, and learning new technologies and tools on the go. Aims to become a MERN stack developer.";
+    document.querySelector('.JasveenSinghKohli-Pic').style.backgroundImage="url('./img/JasveenSinghKohli.jpg')";
+    document.querySelector('.JasveenSinghKohli-Description').innerText="Competitive Programmer | Web Developer | Video Editor | Graphic Designer";
+    document.querySelector('.JasveenSinghKohli-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/jasveen-singh-kohli-478456197/";
+}
 
   function juan() {
     document.querySelector('.juan-name').innerText="Juan";
@@ -388,3 +395,4 @@ function RutujaJagdale() {
     document.querySelector('.juan-Description').innerText="Web Developer";
     document.querySelector('.juan-Portfolio').attributes[1].nodeValue="https://github.com/Zuans";
 }
+
