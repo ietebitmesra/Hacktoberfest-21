@@ -322,6 +322,15 @@ function Priyanshu() {
     "https://twitter.com/Priyanshu769";
 }
 
+
+function Abhishek_chhipa() {
+  document.querySelector('.Abhi-name').innerText="Abhishek";
+  document.querySelector('.Abhi-Bio').innerText="A simple web developer trying to do open source development";
+  document.querySelector('.Abhi-Pic').style.backgroundImage="url('./img/Abhi.jpg')";
+  document.querySelector('.Abhi-Description').innerText="Front end web developer";
+  document.querySelector('.Abhi-Portfolio').attributes[1].nodeValue="https://github.com/abhishek-chhipa";
+}
+
 function apoorvaRaj() {
   document.querySelector(".apoorvaRaj-name").innerText = "Apoorva Raj";
   document.querySelector(".apoorvaRaj-Bio").innerText = "Valar Morghulis";
