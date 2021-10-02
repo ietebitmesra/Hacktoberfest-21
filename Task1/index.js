@@ -344,6 +344,17 @@ function RajGohil() {
     "https://www.linkedin.com/in/sarang-gupta-6b0aa31b7/";
 }
 
+function Gourav() {
+  document.querySelector(".Gourav-name").innerText = "Gourav Jena";
+  document.querySelector(".Gourav-Bio").innerText =
+    "If I was a writer, I'd have a better bio quote";
+  document.querySelector(".Gourav-Pic").style.backgroundImage =
+    "url('./img/Gourav.jpg')";
+  document.querySelector(".Gourav-Description").innerText =
+    "Web Developer | iOS Developer";
+  document.querySelector(".Gourav-Portfolio").attributes[1].nodeValue =
+    "https://github.com/Gourav-78";
+}
 
 function Ashishkumar() {
   document.querySelector(".Ashishkumar-name").innerText = "Ashish Kumar";
@@ -368,4 +379,5 @@ function RutujaJagdale() {
   document.querySelector(".RutujaJagdale-Portfolio").attributes[1].nodeValue =
     "https://www.linkedin.com/in/rutuja-jagdale-803a651b7/";
 }
+
 
