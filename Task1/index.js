@@ -343,3 +343,15 @@ function RajGohil() {
   document.querySelector(".SarangGupta-Portfolio").attributes[1].nodeValue =
     "https://www.linkedin.com/in/sarang-gupta-6b0aa31b7/";
 }
+
+function RutujaJagdale() {
+  document.querySelector(".RutujaJagdale-name").innerText = "Rutuja Jagdale";
+  document.querySelector(".RutujaJagdale-Bio").innerText =
+    "The best way to predict your future is to create it";
+  document.querySelector(".RutujaJagdale-Pic").style.backgroundImage =
+    "url('./img/RutujaJagdale.jpeg')";
+  document.querySelector(".RutujaJagdale-Description").innerText =
+    "Developer | Problem Solver";
+  document.querySelector(".RutujaJagdale-Portfolio").attributes[1].nodeValue =
+    "https://www.linkedin.com/in/rutuja-jagdale-803a651b7/";
+}
