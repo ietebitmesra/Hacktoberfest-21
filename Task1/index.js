@@ -258,3 +258,14 @@ function Priyanshu() {
   document.querySelector('.Priyanshu-Description').innerText="Web Developer";
   document.querySelector('.Priyanshu-Portfolio').attributes[1].nodeValue="https://twitter.com/Priyanshu769";
 }
+
+
+  function apoorvaRaj(){
+    document.querySelector('.apoorvaRaj-name').innerText="Apoorva Raj";
+    document.querySelector('.apoorvaRaj-Bio').innerText="Valar Morghulis";
+    document.querySelector('.apoorvaRaj-Pic').style.backgroundImage="url('./img/apoorvaRaj.jpg')";
+    document.querySelector('.apoorvaRaj-Description').innerText="Web Developer";
+    document.querySelector('.apoorvaRaj-Portfolio').attributes[1].nodeValue="https://github.com/apoorva-raj/";
+
+  }
+
