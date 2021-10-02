@@ -187,6 +187,15 @@ function HritikChaudhary() {
     "https://www.linkedin.com/in/hritik-c-0588b999/";
 }
 
+
+function Sumit4399() {
+  document.querySelector('.Sumit4399-name').innerText="Sumit Anand";
+  document.querySelector('.Sumit4399-Bio').innerText="Everthing is temporary, just trust the process.";
+  document.querySelector('.Sumit4399-Pic').style.backgroundImage="url('./img/Sumit4399.png')";
+  document.querySelector('.Sumit4399-Description').innerText="Web Developer | Competitive Programmer";
+  document.querySelector('.Sumit4399-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/sumit-anand-3068a2191";
+}
+
 function Riya() {
   document.querySelector('.riya-name').innerText = "Riya Singh";
   document.querySelector('.riya-Bio').innerText = "Finding the stars within yourself,I promise they exist.";
@@ -268,4 +277,5 @@ function Priyanshu() {
     document.querySelector('.apoorvaRaj-Portfolio').attributes[1].nodeValue="https://github.com/apoorva-raj/";
 
   }
+
 
