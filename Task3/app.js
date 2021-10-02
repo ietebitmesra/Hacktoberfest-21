@@ -32,6 +32,9 @@ form.addEventListener('submit', async (e)=>{
     const name = bestMatch.name 
     const rating = "Ratings: "+bestMatch.rating.average+" ⭐️"
     const summary = bestMatch.summary
+    let strippedString = summary.replace(/(<([^>]+)>)/gi, "");
+    let strippedString2 = rating.replace(/(<([^>]+)>)/gi, "");
+
 
  
     // CREATE DOM ELEMENTS HERE
@@ -40,9 +43,9 @@ form.addEventListener('submit', async (e)=>{
     const h1 = document.createElement('H1');
     h1.innerText = name;
     const p1 = document.createElement('p');
-    p1.innerText = summary;
+    p1.innerText = strippedString;
     const p2 = document.createElement('p');
-    p2.innerText = rating;
+    p2.innerText = strippedString2;
 
     // STYLE CREATED ELEMENTS HERE
     h1.style.fontSize = '50px';
