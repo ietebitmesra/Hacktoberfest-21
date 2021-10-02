@@ -344,6 +344,30 @@ function RajGohil() {
     "https://www.linkedin.com/in/sarang-gupta-6b0aa31b7/";
 }
 
+function Gourav() {
+  document.querySelector(".Gourav-name").innerText = "Gourav Jena";
+  document.querySelector(".Gourav-Bio").innerText =
+    "If I was a writer, I'd have a better bio quote";
+  document.querySelector(".Gourav-Pic").style.backgroundImage =
+    "url('./img/Gourav.jpg')";
+  document.querySelector(".Gourav-Description").innerText =
+    "Web Developer | iOS Developer";
+  document.querySelector(".Gourav-Portfolio").attributes[1].nodeValue =
+    "https://github.com/Gourav-78";
+}
+
+function Ashishkumar() {
+  document.querySelector(".Ashishkumar-name").innerText = "Ashish Kumar";
+  document.querySelector(".Ashishkumar-Bio").innerText =
+    "The world has always been a beautiful place to explore and learn.";
+  document.querySelector(".Ashishkumar-Pic").style.backgroundImage =
+    "url('./img/Ashishkumar.jpg')";
+  document.querySelector(".Ashishkumar-Description").innerText =
+    "Web Devlopler";
+  document.querySelector(".Ashishkumar-Portfolio").attributes[1].nodeValue =
+    "https://ashishkum-bitm.github.io/portfolio-project/";
+}
+
 function RutujaJagdale() {
   document.querySelector(".RutujaJagdale-name").innerText = "Rutuja Jagdale";
   document.querySelector(".RutujaJagdale-Bio").innerText =
@@ -363,3 +387,12 @@ function JasveenSinghKohli() {
     document.querySelector('.JasveenSinghKohli-Description').innerText="Competitive Programmer | Web Developer | Video Editor | Graphic Designer";
     document.querySelector('.JasveenSinghKohli-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/jasveen-singh-kohli-478456197/";
 }
+
+  function juan() {
+    document.querySelector('.juan-name').innerText="Juan";
+    document.querySelector('.juan-Bio').innerText="Need learn more about web developer";
+    document.querySelector('.juan-Pic').style.backgroundImage="url('./img/juan.jpg')";
+    document.querySelector('.juan-Description').innerText="Web Developer";
+    document.querySelector('.juan-Portfolio').attributes[1].nodeValue="https://github.com/Zuans";
+}
+
