@@ -381,3 +381,10 @@ function RutujaJagdale() {
 }
 
 
+  function juan() {
+    document.querySelector('.juan-name').innerText="Juan";
+    document.querySelector('.juan-Bio').innerText="Need learn more about web developer";
+    document.querySelector('.juan-Pic').style.backgroundImage="url('./img/juan.jpg')";
+    document.querySelector('.juan-Description').innerText="Web Developer";
+    document.querySelector('.juan-Portfolio').attributes[1].nodeValue="https://github.com/Zuans";
+}
