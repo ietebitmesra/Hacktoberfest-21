@@ -344,6 +344,19 @@ function RajGohil() {
     "https://www.linkedin.com/in/sarang-gupta-6b0aa31b7/";
 }
 
+
+function Ashishkumar() {
+  document.querySelector(".Ashishkumar-name").innerText = "Ashish Kumar";
+  document.querySelector(".Ashishkumar-Bio").innerText =
+    "The world has always been a beautiful place to explore and learn.";
+  document.querySelector(".Ashishkumar-Pic").style.backgroundImage =
+    "url('./img/Ashishkumar.jpg')";
+  document.querySelector(".Ashishkumar-Description").innerText =
+    "Web Devlopler";
+  document.querySelector(".Ashishkumar-Portfolio").attributes[1].nodeValue =
+    "https://ashishkum-bitm.github.io/portfolio-project/";
+}
+
 function RutujaJagdale() {
   document.querySelector(".RutujaJagdale-name").innerText = "Rutuja Jagdale";
   document.querySelector(".RutujaJagdale-Bio").innerText =
@@ -355,3 +368,4 @@ function RutujaJagdale() {
   document.querySelector(".RutujaJagdale-Portfolio").attributes[1].nodeValue =
     "https://www.linkedin.com/in/rutuja-jagdale-803a651b7/";
 }
+
