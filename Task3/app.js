@@ -30,7 +30,18 @@ form.addEventListener('submit', async (e)=>{
     const image = bestMatch.image.medium
     // const premeired = bestMatch.image.medium
     const name = bestMatch.name 
-    const rating = "Ratings: "+bestMatch.rating.average+" ⭐️"
+    
+
+    let rating = "Ratings: "+bestMatch.rating.average;
+    let starsLength = Math.floor(bestMatch.rating.average);
+   let i=starsLength-1;
+   let j=10-starsLength;
+
+   for (i; i >= 0; --i) 
+   rating= rating + " ⭐️";
+
+   for(j;j>=1;--j)
+   rating=rating +" ✰"
     const summary = bestMatch.summary
     let strippedString = summary.replace(/(<([^>]+)>)/gi, "");
     let strippedString2 = rating.replace(/(<([^>]+)>)/gi, "");
