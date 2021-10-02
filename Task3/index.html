@@ -1,3 +1,5 @@
+<!-- IMPROVE THE NAVBAR -->
+<!-- USE BOOTSTRAP TO MAKE UI AS CLOSE TO IDEA IMAGE AS POSSIBLE (THOUGH NOT NECESSARY, but it would be easier to others to follow) -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +10,8 @@
         @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Ephesis&family=Lobster&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,200&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
-        </style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+    </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
@@ -18,11 +21,11 @@
 <body>
     <nav class="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand" href="#page-top">Hacktober-fest</a>
+            <a class="navbar-brand logo" href="index.html">Hacktober-fest</a>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3" href="#">Home</a></li>
-                    
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3" href="index.html">Home</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3" href="explore.html">Explore</a></li>
                 </ul>
             </div>
         </div>
@@ -30,13 +33,13 @@
 
    <section class="container main-area" id="searchBar">
        
-       <form id="" class="searchBar_pos1" name="query">
-        <input type="text" id="searchText" placeholder="What are you looking for?">
-      <button type="submit" id="">
-        <i class="fa fa-search"></i>
-     </button>
+    <form id="searchForm" class="searchBar_pos1" name="query">
+        <input type="search" id="searchText"  placeholder="What are you looking for?">
+        <button type="submit" id="searchBtn">
+        <i class="fa fa-search searchIcon"></i>
+        </button>
     </form>
-       <div id="searchResult">
+    <div id="searchResult">
 
     </div>
    </section>
