@@ -7,7 +7,6 @@ function AdityaDubey() {
 }
 
 // style="background-image: url('./img/SHIVAM1422000.jpg')"
-
 function SHIVAM1422000() {
   document.querySelector('.SHIVAM1422000-name').innerText = "Shivam Ojha";
   document.querySelector('.SHIVAM1422000-Bio').innerText = "Keep Debugging, Keep Growing..!!";
@@ -218,43 +217,55 @@ function Uday() {
 }
 
 function Soumya() {
-  document.querySelector('.Soumya-name').innerText="Soumya Agarwal";
-    document.querySelector('.Soumya-Bio').innerText="Learner and Programmer";
-    document.querySelector('.Soumya-Pic').style.backgroundImage="url('./img/Soumya.jpg')";
-    document.querySelector('.Soumya-Description').innerText="Web Developer";
-    document.querySelector('.Soumya-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/soumya-agarwal-828391200";
+  document.querySelector('.Soumya-name').innerText = "Soumya Agarwal";
+  document.querySelector('.Soumya-Bio').innerText = "Learner and Programmer";
+  document.querySelector('.Soumya-Pic').style.backgroundImage = "url('./img/Soumya.jpg')";
+  document.querySelector('.Soumya-Description').innerText = "Web Developer";
+  document.querySelector('.Soumya-Portfolio').attributes[1].nodeValue = "https://www.linkedin.com/in/soumya-agarwal-828391200";
 }
 
 
 function hardik() {
-  document.querySelector('.hardik-name').innerText="Hardik Gupta";
-  document.querySelector('.hardik-Bio').innerText="I love chicken wings";
-  document.querySelector('.hardik-Pic').style.backgroundImage="url('./img/hardik.jpeg')";
-  document.querySelector('.hardik-Description').innerText="Student Developer | Competetive Programmer";
-  document.querySelector('.hardik-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/hardikpedia/";
+  document.querySelector('.hardik-name').innerText = "Hardik Gupta";
+  document.querySelector('.hardik-Bio').innerText = "I love chicken wings";
+  document.querySelector('.hardik-Pic').style.backgroundImage = "url('./img/hardik.jpeg')";
+  document.querySelector('.hardik-Description').innerText = "Student Developer | Competetive Programmer";
+  document.querySelector('.hardik-Portfolio').attributes[1].nodeValue = "https://www.linkedin.com/in/hardikpedia/";
 }
 
 function jhoserpacheco() {
-    document.querySelector('.jhoserpacheco-name').innerText="Jhoser Pacheco";
-    document.querySelector('.jhoserpacheco-Bio').innerText="Competitive programmer, dreamer @jhoserpacheco";
-    document.querySelector('.jhoserpacheco-Pic').style.backgroundImage="url('./img/jhoserpacheco.jpg')";
-    document.querySelector('.jhoserpacheco-Description').innerText="Student System Engineer";
-    document.querySelector('.jhoserpacheco-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/jhoserpacheco/";
+  document.querySelector('.jhoserpacheco-name').innerText = "Jhoser Pacheco";
+  document.querySelector('.jhoserpacheco-Bio').innerText = "Competitive programmer, dreamer @jhoserpacheco";
+  document.querySelector('.jhoserpacheco-Pic').style.backgroundImage = "url('./img/jhoserpacheco.jpg')";
+  document.querySelector('.jhoserpacheco-Description').innerText = "Student System Engineer";
+  document.querySelector('.jhoserpacheco-Portfolio').attributes[1].nodeValue = "https://www.linkedin.com/in/jhoserpacheco/";
 }
 
-function RishavSolanki(){
-    document.querySelector('.Rishav-name').innerText="Rishav Singh Solanki";
-    document.querySelector('.Rishav-Bio').innerText="These are the nights that never die!";
-    document.querySelector('.Rishav-Pic').style.backgroundImage="url('./img/rishav.jpg')";
-    document.querySelector('.Rishav-Description').innerText="Competitive Programmer , Web developer , Chess Player";
-    document.querySelector('.Rishav-Portfolio').attributes[1].nodeValue="https://rishavsinghsolanki.netlify.app/";
+function RishavSolanki() {
+  document.querySelector('.Rishav-name').innerText = "Rishav Singh Solanki";
+  document.querySelector('.Rishav-Bio').innerText = "These are the nights that never die!";
+  document.querySelector('.Rishav-Pic').style.backgroundImage = "url('./img/rishav.jpg')";
+  document.querySelector('.Rishav-Description').innerText = "Competitive Programmer , Web developer , Chess Player";
+  document.querySelector('.Rishav-Portfolio').attributes[1].nodeValue = "https://rishavsinghsolanki.netlify.app/";
 
 }
 
 function Priyanshu() {
-  document.querySelector('.Priyanshu-name').innerText="Priyanshu";
-  document.querySelector('.Priyanshu-Bio').innerText="No matter where you go, there you are. I'm at JavaScript.";
-  document.querySelector('.Priyanshu-Pic').style.backgroundImage="url('./img/Priyanshu.jpg')";
-  document.querySelector('.Priyanshu-Description').innerText="Web Developer";
-  document.querySelector('.Priyanshu-Portfolio').attributes[1].nodeValue="https://twitter.com/Priyanshu769";
+  document.querySelector('.Priyanshu-name').innerText = "Priyanshu";
+  document.querySelector('.Priyanshu-Bio').innerText = "No matter where you go, there you are. I'm at JavaScript.";
+  document.querySelector('.Priyanshu-Pic').style.backgroundImage = "url('./img/Priyanshu.jpg')";
+  document.querySelector('.Priyanshu-Description').innerText = "Web Developer";
+  document.querySelector('.Priyanshu-Portfolio').attributes[1].nodeValue = "https://twitter.com/Priyanshu769";
+}
+
+function RajGohil() {
+  document.querySelector(".SarangGupta-name").innerText = "Sarang Gupta";
+  document.querySelector(".SarangGupta-Bio").innerText =
+    "The best way to predict your future is to create it";
+  document.querySelector(".SarangGupta-Pic").style.backgroundImage =
+    "url('./img/SarangGupta.jpg')";
+  document.querySelector(".SarangGupta-Description").innerText =
+    "Developer | Problem Solver";
+  document.querySelector(".SarangGupta-Portfolio").attributes[1].nodeValue =
+    "https://www.linkedin.com/in/sarang-gupta-6b0aa31b7/";
 }
