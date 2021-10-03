@@ -411,3 +411,10 @@ function MayankJha() {
   document.querySelector('.mayankJha-Description').innerText="Web Developer|Competitive Programmer";
   document.querySelector('.mayankJha-Portfolio').attributes[1].nodeValue="#";
 }
+function RiturajSeal() {
+  document.querySelector('.RiturajSeal-name').innerText="Rituraj Seal";
+  document.querySelector('.RiturajSeal-Bio').innerText="Stay ahead of the curve";
+  document.querySelector('.RiturajSeal-Pic').style.backgroundImage="url('./img/RiturajSeal.jpeg')";
+  document.querySelector('.RiturajSeal-Description').innerText="Competitive Progammer";
+  document.querySelector('.RiturajSeal-Portfolio').attributes[1].nodeValue="https://riturajseal2001.github.io/Portfolio/";
+}
