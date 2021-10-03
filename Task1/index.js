@@ -222,6 +222,8 @@ function HritikChaudhary() {
     "https://www.linkedin.com/in/hritik-c-0588b999/";
 }
 
+
+
 function Sumit4399() {
   document.querySelector(".Sumit4399-name").innerText = "Sumit Anand";
   document.querySelector(".Sumit4399-Bio").innerText =
@@ -265,6 +267,15 @@ function Uday() {
     "url('./img/uday.jpg')";
   document.querySelector(".Uday-Description").innerText = "Web Developer";
 }
+
+function SonamRani() {
+  document.querySelector('.SonamRani-name').innerText = "Sonam Rani";
+  document.querySelector('.SonamRani-Bio').innerText = "Trying...";
+  document.querySelector('.SonamRani-Pic').style.backgroundImage = "url('./img/SonamRani.jpg')";
+  document.querySelector('.SonamRani-Description').innerText = "Competitive Programmer";
+  document.querySelector('.SonamRani-Portfolio').attributes[1].nodeValue = "https://www.linkedin.com/in/sonam-rani-6b89081b7/";
+}
+
 
 function Soumya() {
   document.querySelector(".Soumya-name").innerText = "Soumya Agarwal";
@@ -438,10 +449,26 @@ function DivyanshMandhan() {
   document.querySelector('.Divyansh-Portfolio').attributes[1].nodeValue="#";
 }
 
+
 function valdi() {
   document.querySelector('.valdi-name').innerText="Rivaldi";
   document.querySelector('.valdi-Bio').innerText="College Student | Learner | Web Enthusiast";
   document.querySelector('.valdi-Pic').style.backgroundImage="url('./img/valdi.png')";
   document.querySelector('.valdi-Description').innerText="College Student";
   document.querySelector('.valdi-Portfolio').attributes[1].nodeValue="https://valdians.github.io/";
+
+function HarshRana() {
+  document.querySelector('.Harsh_Rana-name').innerText="Harsh Rana";
+  document.querySelector('.Harsh_Rana-Bio').innerText="Not just another brick in the wall";
+  document.querySelector('.Harsh_Rana-Pic').style.backgroundImage="url('./img/Harsh_Rana.jpg')";
+  document.querySelector('.Harsh_Rana-Description').innerText="Web Developer";
+  document.querySelector('.Harsh_Rana-Portfolio').attributes[1].nodeValue="https://harshrana117.github.io/website";
+}
+
+function AdityaVerma() {
+  document.querySelector('.AdityaVerma-name').innerText="Aditya Verma";
+  document.querySelector('.AdityaVerma-Bio').innerText="Omae Wa mou shinderu!";
+  document.querySelector('.AdityaVerma-Pic').style.backgroundImage="url('./img/AdityaVerma.jpg')";
+  document.querySelector('.AdityaVerma-Description').innerText="Full Stack Web Developer.";
+  document.querySelector('.AdityaVerma-Portfolio').attributes[1].nodeValue="https://github.com/homewardgamer";
 }
