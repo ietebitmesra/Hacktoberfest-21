@@ -222,6 +222,8 @@ function HritikChaudhary() {
     "https://www.linkedin.com/in/hritik-c-0588b999/";
 }
 
+
+
 function Sumit4399() {
   document.querySelector(".Sumit4399-name").innerText = "Sumit Anand";
   document.querySelector(".Sumit4399-Bio").innerText =
@@ -265,6 +267,15 @@ function Uday() {
     "url('./img/uday.jpg')";
   document.querySelector(".Uday-Description").innerText = "Web Developer";
 }
+
+function SonamRani() {
+  document.querySelector('.SonamRani-name').innerText = "Sonam Rani";
+  document.querySelector('.SonamRani-Bio').innerText = "Trying...";
+  document.querySelector('.SonamRani-Pic').style.backgroundImage = "url('./img/SonamRani.jpg')";
+  document.querySelector('.SonamRani-Description').innerText = "Competitive Programmer";
+  document.querySelector('.SonamRani-Portfolio').attributes[1].nodeValue = "https://www.linkedin.com/in/sonam-rani-6b89081b7/";
+}
+
 
 function Soumya() {
   document.querySelector(".Soumya-name").innerText = "Soumya Agarwal";
