@@ -455,3 +455,10 @@ function HarshRana() {
   document.querySelector('.Harsh_Rana-Portfolio').attributes[1].nodeValue="https://harshrana117.github.io/website";
 }
 
+function AdityaVerma() {
+  document.querySelector('.AdityaVerma-name').innerText="Aditya Verma";
+  document.querySelector('.AdityaVerma-Bio').innerText="Omae Wa mou shinderu!";
+  document.querySelector('.AdityaVerma-Pic').style.backgroundImage="url('./img/AdityaVerma.jpg')";
+  document.querySelector('.AdityaVerma-Description').innerText="Full Stack Web Developer.";
+  document.querySelector('.AdityaVerma-Portfolio').attributes[1].nodeValue="https://github.com/homewardgamer";
+}
