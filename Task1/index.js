@@ -10,6 +10,14 @@ function AdityaDubey() {
     "https://www.linkedin.com/in/dubeyaditya6232/";
 }
 
+function harmanpreet() {
+  document.querySelector('.harmanpreet-name').innerText="Harmanpreet Singh";
+  document.querySelector('.harmanpreet-Bio').innerText="PRACTICE makes a man PERFECT";
+  document.querySelector('.harmanpreet-Pic').style.backgroundImage="url('./img/harmanpreet.jpg')";
+  document.querySelector('.harmanpreet-Description').innerText="Web Devloper";
+  document.querySelector('.harmanpreet-Portfolio').attributes[1].nodeValue="#";
+}
+
 // style="background-image: url('./img/SHIVAM1422000.jpg')"
 function SHIVAM1422000() {
   document.querySelector(".SHIVAM1422000-name").innerText = "Shivam Ojha";
