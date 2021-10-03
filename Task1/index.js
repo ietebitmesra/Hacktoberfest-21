@@ -1,24 +1,3 @@
-function AdityaDubey() {
-  document.querySelector(".AdityaDubey-name").innerText = "AdityaDubey";
-  document.querySelector(".AdityaDubey-Bio").innerText =
-    "Strive until you succeed";
-  document.querySelector(".AdityaDubey-Pic").style.backgroundImage =
-    "url('./img/AD.jpg')";
-  document.querySelector(".AdityaDubey-Description").innerText =
-    "Competitive Programmer";
-  document.querySelector(".AdityaDubey-Portfolio").attributes[1].nodeValue =
-    "https://www.linkedin.com/in/dubeyaditya6232/";
-}
-
-function harmanpreet() {
-  document.querySelector('.harmanpreet-name').innerText="Harmanpreet Singh";
-  document.querySelector('.harmanpreet-Bio').innerText="PRACTICE makes a man PERFECT";
-  document.querySelector('.harmanpreet-Pic').style.backgroundImage="url('./img/harmanpreet.jpg')";
-  document.querySelector('.harmanpreet-Description').innerText="Web Devloper";
-  document.querySelector('.harmanpreet-Portfolio').attributes[1].nodeValue="#";
-}
-
-// style="background-image: url('./img/SHIVAM1422000.jpg')"
 function SHIVAM1422000() {
   document.querySelector(".SHIVAM1422000-name").innerText = "Shivam Ojha";
   document.querySelector(".SHIVAM1422000-Bio").innerText =
@@ -410,7 +389,7 @@ function RutujaJagdale() {
 
 function JasveenSinghKohli() {
     document.querySelector('.JasveenSinghKohli-name').innerText="Jasveen Singh Kohli";
-    document.querySelector('.JasveenSinghKohli-Bio').innerText="An enthusiastic learner and Tech Geek. Interested in devising better problem solving methods for challenging tasks, and learning new technologies and tools on the go. Aims to become a MERN stack developer.";
+    document.querySelector('.JasveenSinghKohli-Bio').innerText="An enthusiastic learner and Tech Geek.Aims to become a MERN stack developer.";
     document.querySelector('.JasveenSinghKohli-Pic').style.backgroundImage="url('./img/JasveenSinghKohli.jpg')";
     document.querySelector('.JasveenSinghKohli-Description').innerText="Competitive Programmer | Web Developer | Video Editor | Graphic Designer";
     document.querySelector('.JasveenSinghKohli-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/jasveen-singh-kohli-478456197/";
@@ -448,6 +427,7 @@ function SACHIN() {
   document.querySelector(".SACHIN-Portfolio").attributes[1].nodeValue =
     "https://www.linkedin.com/in/sachin-7958a4191/";
 }
+
 function DivyanshMandhan() {
   document.querySelector('.Divyansh-name').innerText="Divyansh Mandhan";
   document.querySelector('.Divyansh-Bio').innerText="Nature nurtures us";
@@ -462,4 +442,3 @@ function HarshRana() {
   document.querySelector('.Harsh_Rana-Description').innerText="Web Developer";
   document.querySelector('.Harsh_Rana-Portfolio').attributes[1].nodeValue="https://harshrana117.github.io/website";
 }
-
