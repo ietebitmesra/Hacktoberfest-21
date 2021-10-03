@@ -429,4 +429,10 @@ function SACHIN() {
   document.querySelector(".SACHIN-Portfolio").attributes[1].nodeValue =
     "https://www.linkedin.com/in/sachin-7958a4191/";
 }
-
+function valdi() {
+  document.querySelector('.valdi-name').innerText="Rivaldi";
+  document.querySelector('.valdi-Bio').innerText="College Student | Learner | Web Enthusiast";
+  document.querySelector('.valdi-Pic').style.backgroundImage="url('./img/valdi.png')";
+  document.querySelector('.valdi-Description').innerText="College Student";
+  document.querySelector('.valdi-Portfolio').attributes[1].nodeValue="https://valdians.github.io/";
+}
