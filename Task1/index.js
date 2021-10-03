@@ -429,6 +429,15 @@ function SACHIN() {
   document.querySelector(".SACHIN-Portfolio").attributes[1].nodeValue =
     "https://www.linkedin.com/in/sachin-7958a4191/";
 }
+
+function DivyanshMandhan() {
+  document.querySelector('.Divyansh-name').innerText="Divyansh Mandhan";
+  document.querySelector('.Divyansh-Bio').innerText="Nature nurtures us";
+  document.querySelector('.Divyansh-Pic').style.backgroundImage="url('./img/Divyansh.jpg')";
+  document.querySelector('.Divyansh-Description').innerText="App Developer";
+  document.querySelector('.Divyansh-Portfolio').attributes[1].nodeValue="#";
+}
+
 function valdi() {
   document.querySelector('.valdi-name').innerText="Rivaldi";
   document.querySelector('.valdi-Bio').innerText="College Student | Learner | Web Enthusiast";
