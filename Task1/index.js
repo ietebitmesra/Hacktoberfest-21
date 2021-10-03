@@ -402,7 +402,7 @@ function RutujaJagdale() {
 
 function JasveenSinghKohli() {
     document.querySelector('.JasveenSinghKohli-name').innerText="Jasveen Singh Kohli";
-    document.querySelector('.JasveenSinghKohli-Bio').innerText="An enthusiastic learner and Tech Geek. Interested in devising better problem solving methods for challenging tasks, and learning new technologies and tools on the go. Aims to become a MERN stack developer.";
+    document.querySelector('.JasveenSinghKohli-Bio').innerText="An enthusiastic learner and Tech Geek.Aims to become a MERN stack developer.";
     document.querySelector('.JasveenSinghKohli-Pic').style.backgroundImage="url('./img/JasveenSinghKohli.jpg')";
     document.querySelector('.JasveenSinghKohli-Description').innerText="Competitive Programmer | Web Developer | Video Editor | Graphic Designer";
     document.querySelector('.JasveenSinghKohli-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/jasveen-singh-kohli-478456197/";
@@ -456,6 +456,7 @@ function valdi() {
   document.querySelector('.valdi-Pic').style.backgroundImage="url('./img/valdi.png')";
   document.querySelector('.valdi-Description').innerText="College Student";
   document.querySelector('.valdi-Portfolio').attributes[1].nodeValue="https://valdians.github.io/";
+}
 
 function HarshRana() {
   document.querySelector('.Harsh_Rana-name').innerText="Harsh Rana";
