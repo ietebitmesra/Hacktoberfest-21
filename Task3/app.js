@@ -30,7 +30,7 @@ form.addEventListener('submit', async (e)=>{
     const image = bestMatch.image.medium
     // const premeired = bestMatch.image.medium
     const name = bestMatch.name 
-    const rating = "Ratings: "+bestMatch.rating.average+" ⭐️"
+    const rating = "Rating : "+bestMatch.rating.average+" ⭐️"
     const summary = bestMatch.summary
     let strippedString = summary.replace(/(<([^>]+)>)/gi, "");
     let strippedString2 = rating.replace(/(<([^>]+)>)/gi, "");
@@ -42,10 +42,10 @@ form.addEventListener('submit', async (e)=>{
     img.src = image;
     const h1 = document.createElement('H1');
     h1.innerText = name;
-    const p1 = document.createElement('p');
-    p1.innerText = strippedString;
     const p2 = document.createElement('p');
     p2.innerText = strippedString2;
+    const p1 = document.createElement('p');
+    p1.innerText = strippedString;
 
     // STYLE CREATED ELEMENTS HERE
     h1.style.fontSize = '50px';
@@ -59,8 +59,8 @@ form.addEventListener('submit', async (e)=>{
     // APPEND ELEMENTS TO WEB PAGE
     resultDiv.append(img)
     resultDiv.append(h1)
-    resultDiv.append(p1)
     resultDiv.append(p2)
+    resultDiv.append(p1)
 
     form.reset();
 })
