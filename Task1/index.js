@@ -418,3 +418,12 @@ function RiturajSeal() {
   document.querySelector('.RiturajSeal-Description').innerText="Competitive Progammer";
   document.querySelector('.RiturajSeal-Portfolio').attributes[1].nodeValue="https://riturajseal2001.github.io/Portfolio/";
 }
+
+function AlokMathur() {
+  document.querySelector(".alokM-name").innerText = "Alok Mathur";
+  document.querySelector(".alokM-Bio").innerText =
+    "Always keen to learn new things";
+  document.querySelector(".alokM-Pic").style.backgroundImage = "url('./img/alokm.png')";
+  document.querySelector(".alokM-Description").innerText = "Coding Enthusiast";
+  document.querySelector(".alokM-Portfolio").attributes[1].nodeValue = "#";
+}
