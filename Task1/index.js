@@ -461,3 +461,10 @@ function AdityaVerma() {
   document.querySelector('.AdityaVerma-Description').innerText="Full Stack Web Developer.";
   document.querySelector('.AdityaVerma-Portfolio').attributes[1].nodeValue="https://github.com/homewardgamer";
 }
+function harmanpreet() {
+  document.querySelector('.harmanpreet-name').innerText="Harmanpreet Singh";
+  document.querySelector('.harmanpreet-Bio').innerText="PRACTICE makes a man PERFECT";
+  document.querySelector('.harmanpreet-Pic').style.backgroundImage="url('./img/harmanpreet.jpg')";
+  document.querySelector('.harmanpreet-Description').innerText="Web Devloper";
+  document.querySelector('.harmanpreet-Portfolio').attributes[1].nodeValue="#";
+}

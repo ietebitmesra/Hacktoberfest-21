@@ -1,19 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Lora|Roboto:400,500);
-
 /* card aninamtions */
- body {
-   margin: 0;
-   padding: 0;
-   font-size: 16px;
-   line-height: 1.5;
-   text-rendering: optimizeLegibility;
-   font-variant-ligatures: none;
-   box-sizing: border-box;
-   font-family: 'Roboto', sans-serif;
-   background-color: #000000;
-/*   fixing horizontal scrolling */
-   overflow-x: hidden;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  font-variant-ligatures: none;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  background-color: #000000;
+  /*   fixing horizontal scrolling */
+  overflow-x: hidden;
 }
+
 /*                     navbar glow                 */
 
 .box {
@@ -70,15 +71,11 @@
 
 /*         glow end          */
 
-
-
-.head-section{
-  box-shadow: 0 8px 6px -6px black;
+.head-section {
+  /* box-shadow: 0 8px 6px -6px black; */
   /* background-image: url("./img/banner.png"); */
   color: #c23e16;
   background-color: #000000;
-  
-
 }
 
 /* .head-section{
@@ -94,53 +91,51 @@
 
 } */
 
-
-body::before,
-body::after {
+body::before, body::after {
   content: "";
   display: table;
   clear: both;
 }
-.header-img{
+
+.header-img {
   height: 20px;
   background-color: black;
 }
 
 /* mobile responsive  */
+
 @media (max-width: 768px) {
-  .header-img{
+  .header-img {
     height: 95px;
   }
 }
 
 @media (max-width: 425px) {
-  .header-img{
+  .header-img {
     height: 60px;
   }
 }
+
 @media (max-width: 375px) {
-  .header-img{
+  .header-img {
     height: 48px;
   }
 }
+
 @media (max-width: 320px) {
-  .header-img{
+  .header-img {
     height: 30px;
   }
 }
 
-
-
-
-.icon{
+.icon {
   color: black;
 }
 
-
-
- .lts-1px {
-   letter-spacing: 1px;
+.lts-1px {
+  letter-spacing: 1px;
 }
+
 .lts-2px {
   letter-spacing: 2px;
 }
@@ -157,122 +152,118 @@ body::after {
   -o-transition: all .5s;
   transition: all .5s;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
   background: -o-linear-gradient(top, white, black);
   background: linear-gradient(to bottom, white, black);
 }
+
 body {
-font-family: "Montserrat", sans-serif;
-font-size: 13px;
-color: #000000;
-margin: 0;
-/* background: url('https://images.unsplash.com/photo-1524899559789-49e2fa115598?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ') no-repeat; */
-background-size: cover;
-background-position: center center;
-background-attachment: fixed;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  color: #000000;
+  margin: 0;
+  /* background: url('https://images.unsplash.com/photo-1524899559789-49e2fa115598?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ') no-repeat; */
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700"),
-a,
-a:hover,
-a:visited,
-a:focus,
-textarea {
-text-decoration: none;
-outline: 0;
-cursor: pointer;
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700"), a, a:hover, a:visited, a:focus, textarea {
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
 }
 
 .github-main {
-display: block;
-
-padding: 50px 0;
-position: relative;
+  display: block;
+  margin: 10px;
+  position: relative;
+  /* padding: 50px 0; */
 }
 
 .github-wrapper {
-background:#ce9975;
+  background: #ce9975;
+  max-width: 320px;
+  margin: 0 auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-radius: 40px;
+  /* border-radius: 0px 0px 30px 0px; */
+  -webkit-box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5);
+  font-size: 0;
 
-max-width: 320px;
-margin: 0 auto;
-width: 100%;
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--webkit-box-align: center;
-    -ms-flex-align: center;
-        align-items: center;
--webkit-box-pack: center;
-    -ms-flex-pack: center;
-        justify-content: center;
--webkit-box-orient: vertical;
--webkit-box-direction: normal;
-    -ms-flex-direction: column;
-        flex-direction: column;
-border-radius: 40px;
-/* border-radius: 0px 0px 30px 0px; */
--webkit-box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5);
-        box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5);
-font-size: 0;
 }
 
 .github-banner canvas {
-display: block;
-width: 100%;
-background-position: center center;
-background-size: cover;
-background-repeat: repeat;
-border-radius: 40px 40px 0 0;
+  display: block;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: repeat;
+  border-radius: 40px 40px 0 0;
 }
 
 .github-dp {
-border-radius: 40px;
-width: 100%;
-height: 100%;
-max-width: 150px;
-margin: 0 auto;
-position: absolute;
-top: -68px;
-left: 0;
-right: 0;
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--webkit-box-align: start;
-    -ms-flex-align: start;
-        align-items: flex-start;
--webkit-box-pack: center;
-    -ms-flex-pack: center;
-        justify-content: center;
--webkit-transition: 0.3s all ease-in;
--o-transition: 0.3s all ease-in;
-transition: 0.3s all ease-in;
+  border-radius: 40px;
+  width: 100%;
+  height: 100%;
+  max-width: 150px;
+  margin: 0 auto;
+  position: absolute;
+  top: -68px;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: 0.3s all ease-in;
+  -o-transition: 0.3s all ease-in;
+  transition: 0.3s all ease-in;
 }
 
 .github-dp canvas {
-display: block;
-width: 100%;
-background-position: center center;
-background-size: cover;
-background-repeat: repeat;
-border-radius: 50%;
-border: 1px solid #000;
+  display: block;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: repeat;
+  border-radius: 50%;
+  border: 1px solid #000;
 }
 
 .github-name {
-display: block;
-text-align: center;
-z-index: 2;
-position: relative;
-    margin-top: 1px;
+  display: block;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+  margin-top: 1px;
 }
 
 .github-name h2 {
   margin: 2px auto;
-    font-size: 20px;
+  font-size: 20px;
   letter-spacing: 0.5px;
   line-height: 1;
   color: #2d303a;
@@ -280,36 +271,36 @@ position: relative;
 }
 
 .github-name h2 span {
-display: block;
-font-size: 13px;
-line-height: 1;
-letter-spacing: 0.5px;
-margin-top: 5px;
-font-weight: 400;
+  display: block;
+  font-size: 13px;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  margin-top: 5px;
+  font-weight: 400;
 }
 
 .github-followers-wrap {
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--webkit-box-align: center;
-    -ms-flex-align: center;
-        align-items: center;
--webkit-box-pack: center;
-    -ms-flex-pack: center;
-        justify-content: center;
-z-index: 5;
-position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  z-index: 5;
+  position: relative;
 }
-
 
 .github-follow h2 span {
-color: #666;
-font-size: 13px;
-display: block;
-margin-top: 5px;
-font-weight: 300;
+  color: #666;
+  font-size: 13px;
+  display: block;
+  margin-top: 5px;
+  font-weight: 300;
 }
+
 /* .github-button {
   padding: 2px;
 display: block;
@@ -342,15 +333,27 @@ position: relative;
   transition: 0.3s all ease-in;
 } */
 
-
 /* ----------------new button----------------------------- */
+
 .github-button {
   position: relative;
-  width: 240px;
+  width: 150px;
   height: 50px;
-  margin: 20px;
-  /* background-color: rgb(20, 230, 241);
+  margin: 20px auto;
+  /* background-color: rgb(153, 92, 148);
   border-radius: 30px; */
+}
+
+@media (min-width: 1269px) {
+  .github-button {
+    width: 240px;
+  }
+}
+
+@media (max-width: 767px) {
+  .github-button {
+    width: 240px;
+  }
 }
 
 .github-button a {
@@ -434,8 +437,6 @@ position: relative;
   transition: 0.5s all ease-out;
   transition-delay: 0s;
 }
-
-
 .github-button:hover::after {
   top: 0;
   height: 50%;
@@ -443,43 +444,42 @@ position: relative;
   border-radius: 30px;
   transition-delay: 0.3s;
 }
+
 .github-button:active::after {
-  background-color: rgb(20, 230, 241);
-  transition: 0s;
-}
-.github-button:active::before {
-  background-color: rgb(20, 230, 241);
+  background-color: #c23e16;
   transition: 0s;
 }
 
-.github-button::before, 
-.github-button::after {
+.github-button:active::before {
+  background-color: #c23e16;
+  transition: 0s;
+}
+
+.github-button::before, .github-button::after {
   /* background: #ff1f71;
   box-shadow: 0 0 15px #ff1f71,
       0 0 15px #ff1f71,
       0 0 60px #ff1f71,
       0 0 900px #ff1f71; */
-  background:          #EDE7DC;
-  box-shadow: 0 0 15px #EDE7DC,
-              0 0 15px #EDE7DC,
-              0 0 60px #EDE7DC,
-              0 0 90px #EDE7DC;
+  background: #EDE7DC;
+  box-shadow: 0 0 15px #EDE7DC, 0 0 15px #EDE7DC, 0 0 60px #EDE7DC, 0 0 90px #EDE7DC;
 }
-/* ----------------new button end--------------------------- */
+
+/* ---------------new button end--------------------------- */
 
 .github-bio p {
-font-size: 14px;
-line-height: 20px;
-color: rgb(27, 27, 27);
-text-align: left;
-display: block;
-scroll-behavior: auto;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(27, 27, 27);
+  text-align: left;
+  display: block;
+  scroll-behavior: auto;
 }
 
 .github-details {
-display: block;
-padding: 100px 30px 20px;
-position: relative;
+  display: block;
+  padding: 100px 30px 20px;
+  position: relative;
 }
 
 .footer {
