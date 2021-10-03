@@ -17,7 +17,7 @@ const form = document.querySelector('#searchForm');
 const resultDiv = document.querySelector('#searchResult')
 
 //FORM SUBMISSION EVENT LISTENER
-form.addEventListener('submit', async (e)=>{
+form.addEventListener('submit', async (e) => {
     e.preventDefault();
     // API CALL
     const searchTerm = document.querySelector('#searchText').value;
@@ -29,13 +29,13 @@ form.addEventListener('submit', async (e)=>{
     const id = bestMatch.id;
     const image = bestMatch.image.medium
     // const premeired = bestMatch.image.medium
-    const name = bestMatch.name 
-    const rating = "Ratings: "+bestMatch.rating.average+" ⭐️"
+    const name = bestMatch.name
+    const rating = "Ratings: " + bestMatch.rating.average + " ⭐️"
     const summary = bestMatch.summary
 
- 
+
     // CREATE DOM ELEMENTS HERE
-    const img = document.createElement('IMG');    
+    const img = document.createElement('IMG');
     img.src = image;
     const h1 = document.createElement('H1');
     h1.innerText = name;
@@ -47,12 +47,12 @@ form.addEventListener('submit', async (e)=>{
     // STYLE CREATED ELEMENTS HERE
     h1.style.fontSize = '50px';
 
-    p1.style.fontFamily= 'Courgette, cursive';
-    p1.style.fontSize= '22px';
-    p1.style.fontWeight= '100'
+    p1.style.fontFamily = 'Courgette, cursive';
+    p1.style.fontSize = '22px';
+    p1.style.fontWeight = '100'
 
     p2.style.fontSize = '20px';
-    
+
     // APPEND ELEMENTS TO WEB PAGE
     resultDiv.append(img)
     resultDiv.append(h1)
