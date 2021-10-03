@@ -1,3 +1,11 @@
+function niraj() {
+  document.querySelector('.niraj-name').innerText="Prabal Jain";
+  document.querySelector('.niraj-Bio').innerText="Python Programmer";
+  document.querySelector('.niraj-Pic').style.backgroundImage="url('./img/niraj.jpg')";
+  document.querySelector('.niraj-Description').innerText="Python Programmer && Problem Solver";
+  document.querySelector('.niraj-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/nirajn/";
+}
+
 function AdityaDubey() {
   document.querySelector(".AdityaDubey-name").innerText = "AdityaDubey";
   document.querySelector(".AdityaDubey-Bio").innerText =
@@ -150,15 +158,15 @@ function Aryan() {
     "https://aryan0472.github.io/Portfolio/";
 }
 
-function PrabalJain() {
-  document.querySelector(".PrabalJain-name").innerText = "Prabal Jain";
-  document.querySelector(".PrabalJain-Bio").innerText = "Stay Focused";
-  document.querySelector(".PrabalJain-Pic").style.backgroundImage =
-    "url('./img/PrabalJain.jpg')";
-  document.querySelector(".PrabalJain-Description").innerText =
+function niraj() {
+  document.querySelector(".niraj-name").innerText = "Prabal Jain";
+  document.querySelector(".niraj-Bio").innerText = "Stay Focused";
+  document.querySelector(".niraj-Pic").style.backgroundImage =
+    "url('./img/niraj.jpg')";
+  document.querySelector(".niraj-Description").innerText =
     "Python Programmer && Problem Solver";
-  document.querySelector(".PrabalJain-Portfolio").attributes[1].nodeValue =
-    "https://www.linkedin.com/in/prabaljainn/";
+  document.querySelector(".niraj-Portfolio").attributes[1].nodeValue =
+    "https://www.linkedin.com/in/nirajn/";
 }
 
 function IamLucif3r() {
@@ -472,3 +480,4 @@ function AdityaVerma() {
   document.querySelector('.AdityaVerma-Description').innerText="Full Stack Web Developer.";
   document.querySelector('.AdityaVerma-Portfolio').attributes[1].nodeValue="https://github.com/homewardgamer";
 }
+
