@@ -440,6 +440,7 @@ function SACHIN() {
   document.querySelector(".SACHIN-Portfolio").attributes[1].nodeValue =
     "https://www.linkedin.com/in/sachin-7958a4191/";
 }
+
 function DivyanshMandhan() {
   document.querySelector('.Divyansh-name').innerText="Divyansh Mandhan";
   document.querySelector('.Divyansh-Bio').innerText="Nature nurtures us";
@@ -447,6 +448,15 @@ function DivyanshMandhan() {
   document.querySelector('.Divyansh-Description').innerText="App Developer";
   document.querySelector('.Divyansh-Portfolio').attributes[1].nodeValue="#";
 }
+
+
+function valdi() {
+  document.querySelector('.valdi-name').innerText="Rivaldi";
+  document.querySelector('.valdi-Bio').innerText="College Student | Learner | Web Enthusiast";
+  document.querySelector('.valdi-Pic').style.backgroundImage="url('./img/valdi.png')";
+  document.querySelector('.valdi-Description').innerText="College Student";
+  document.querySelector('.valdi-Portfolio').attributes[1].nodeValue="https://valdians.github.io/";
+
 function HarshRana() {
   document.querySelector('.Harsh_Rana-name').innerText="Harsh Rana";
   document.querySelector('.Harsh_Rana-Bio').innerText="Not just another brick in the wall";
