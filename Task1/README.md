@@ -60,12 +60,12 @@
 
     .... other people code ....
 
-function YourName() {
-    document.querySelector('.yourName-name').innerText="Enter your Name";
-    document.querySelector('.yourName-Bio').innerText="Enter your Bio";
-    document.querySelector('.yourName-Pic').style.backgroundImage="url('./img/yourName.jpg')";
-    document.querySelector('.yourName-Description').innerText="your Description";
-    document.querySelector('.yourName-Portfolio').attributes[1].nodeValue="your Portfolio URL";
+function PrabalJain() {
+    document.querySelector('.PrabalJain-name').innerText="Prabal Jain";
+    document.querySelector('.PrabalJain-Bio').innerText="Python Programmer";
+    document.querySelector('.PrabalJain-Pic').style.backgroundImage="url('./img/PrabalJain.jpg')";
+    document.querySelector('.PrabalJain-Description').innerText="Python Programmer && Problem Solver";
+    document.querySelector('.PrabalJain-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/prabaljainn/";
 }
 
 ```

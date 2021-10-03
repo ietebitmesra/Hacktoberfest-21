@@ -1,16 +1,3 @@
-function AdityaDubey() {
-  document.querySelector(".AdityaDubey-name").innerText = "AdityaDubey";
-  document.querySelector(".AdityaDubey-Bio").innerText =
-    "Strive until you succeed";
-  document.querySelector(".AdityaDubey-Pic").style.backgroundImage =
-    "url('./img/AD.jpg')";
-  document.querySelector(".AdityaDubey-Description").innerText =
-    "Competitive Programmer";
-  document.querySelector(".AdityaDubey-Portfolio").attributes[1].nodeValue =
-    "https://www.linkedin.com/in/dubeyaditya6232/";
-}
-
-// style="background-image: url('./img/SHIVAM1422000.jpg')"
 function SHIVAM1422000() {
   document.querySelector(".SHIVAM1422000-name").innerText = "Shivam Ojha";
   document.querySelector(".SHIVAM1422000-Bio").innerText =
@@ -222,6 +209,8 @@ function HritikChaudhary() {
     "https://www.linkedin.com/in/hritik-c-0588b999/";
 }
 
+
+
 function Sumit4399() {
   document.querySelector(".Sumit4399-name").innerText = "Sumit Anand";
   document.querySelector(".Sumit4399-Bio").innerText =
@@ -265,6 +254,15 @@ function Uday() {
     "url('./img/uday.jpg')";
   document.querySelector(".Uday-Description").innerText = "Web Developer";
 }
+
+function SonamRani() {
+  document.querySelector('.SonamRani-name').innerText = "Sonam Rani";
+  document.querySelector('.SonamRani-Bio').innerText = "Trying...";
+  document.querySelector('.SonamRani-Pic').style.backgroundImage = "url('./img/SonamRani.jpg')";
+  document.querySelector('.SonamRani-Description').innerText = "Competitive Programmer";
+  document.querySelector('.SonamRani-Portfolio').attributes[1].nodeValue = "https://www.linkedin.com/in/sonam-rani-6b89081b7/";
+}
+
 
 function Soumya() {
   document.querySelector(".Soumya-name").innerText = "Soumya Agarwal";
@@ -391,7 +389,7 @@ function RutujaJagdale() {
 
 function JasveenSinghKohli() {
     document.querySelector('.JasveenSinghKohli-name').innerText="Jasveen Singh Kohli";
-    document.querySelector('.JasveenSinghKohli-Bio').innerText="An enthusiastic learner and Tech Geek. Interested in devising better problem solving methods for challenging tasks, and learning new technologies and tools on the go. Aims to become a MERN stack developer.";
+    document.querySelector('.JasveenSinghKohli-Bio').innerText="An enthusiastic learner and Tech Geek.Aims to become a MERN stack developer.";
     document.querySelector('.JasveenSinghKohli-Pic').style.backgroundImage="url('./img/JasveenSinghKohli.jpg')";
     document.querySelector('.JasveenSinghKohli-Description').innerText="Competitive Programmer | Web Developer | Video Editor | Graphic Designer";
     document.querySelector('.JasveenSinghKohli-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/jasveen-singh-kohli-478456197/";
@@ -417,4 +415,48 @@ function RiturajSeal() {
   document.querySelector('.RiturajSeal-Pic').style.backgroundImage="url('./img/RiturajSeal.jpeg')";
   document.querySelector('.RiturajSeal-Description').innerText="Competitive Progammer";
   document.querySelector('.RiturajSeal-Portfolio').attributes[1].nodeValue="https://riturajseal2001.github.io/Portfolio/";
+}
+function SACHIN() {
+  document.querySelector(".SACHIN-name").innerText = "SACHIN";
+  document.querySelector(".SACHIN-Bio").innerText =
+    "Success is not final, failure is not fatal: it is the courage to continue that counts.";
+  document.querySelector(".SACHIN-Pic").style.backgroundImage =
+    "url('./img/SACHIN.jpg')";
+  document.querySelector(".SACHIN-Description").innerText =
+    "Competitive Programmer";
+  document.querySelector(".SACHIN-Portfolio").attributes[1].nodeValue =
+    "https://www.linkedin.com/in/sachin-7958a4191/";
+}
+
+function DivyanshMandhan() {
+  document.querySelector('.Divyansh-name').innerText="Divyansh Mandhan";
+  document.querySelector('.Divyansh-Bio').innerText="Nature nurtures us";
+  document.querySelector('.Divyansh-Pic').style.backgroundImage="url('./img/Divyansh.jpg')";
+  document.querySelector('.Divyansh-Description').innerText="App Developer";
+  document.querySelector('.Divyansh-Portfolio').attributes[1].nodeValue="#";
+}
+
+
+function valdi() {
+  document.querySelector('.valdi-name').innerText="Rivaldi";
+  document.querySelector('.valdi-Bio').innerText="College Student | Learner | Web Enthusiast";
+  document.querySelector('.valdi-Pic').style.backgroundImage="url('./img/valdi.png')";
+  document.querySelector('.valdi-Description').innerText="College Student";
+  document.querySelector('.valdi-Portfolio').attributes[1].nodeValue="https://valdians.github.io/";
+}
+
+function HarshRana() {
+  document.querySelector('.Harsh_Rana-name').innerText="Harsh Rana";
+  document.querySelector('.Harsh_Rana-Bio').innerText="Not just another brick in the wall";
+  document.querySelector('.Harsh_Rana-Pic').style.backgroundImage="url('./img/Harsh_Rana.jpg')";
+  document.querySelector('.Harsh_Rana-Description').innerText="Web Developer";
+  document.querySelector('.Harsh_Rana-Portfolio').attributes[1].nodeValue="https://harshrana117.github.io/website";
+}
+
+function AdityaVerma() {
+  document.querySelector('.AdityaVerma-name').innerText="Aditya Verma";
+  document.querySelector('.AdityaVerma-Bio').innerText="Omae Wa mou shinderu!";
+  document.querySelector('.AdityaVerma-Pic').style.backgroundImage="url('./img/AdityaVerma.jpg')";
+  document.querySelector('.AdityaVerma-Description').innerText="Full Stack Web Developer.";
+  document.querySelector('.AdityaVerma-Portfolio').attributes[1].nodeValue="https://github.com/homewardgamer";
 }
