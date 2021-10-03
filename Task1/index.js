@@ -447,4 +447,11 @@ function DivyanshMandhan() {
   document.querySelector('.Divyansh-Description').innerText="App Developer";
   document.querySelector('.Divyansh-Portfolio').attributes[1].nodeValue="#";
 }
+function HarshRana() {
+  document.querySelector('.Harsh_Rana-name').innerText="Harsh Rana";
+  document.querySelector('.Harsh_Rana-Bio').innerText="Not just another brick in the wall";
+  document.querySelector('.Harsh_Rana-Pic').style.backgroundImage="url('./img/Harsh_Rana.jpg')";
+  document.querySelector('.Harsh_Rana-Description').innerText="Web Developer";
+  document.querySelector('.Harsh_Rana-Portfolio').attributes[1].nodeValue="https://harshrana117.github.io/website";
+}
 
