@@ -556,3 +556,11 @@ function MohitSinghChauhan() {
   document.querySelector('.MohitSinghChauhan-Description').innerText="Building things && Problem Solving is my coffee ✔️";
   document.querySelector('.MohitSinghChauhan-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/mohit-singh-chauhan-944ba9200/";
 }
+
+function Radsadorn() {
+  document.querySelector('.Radsadorn-name').innerText="Sutthirat Phutho";
+  document.querySelector('.Radsadorn-Bio').innerText="Computer Engineering, KMITL THAILAND";
+  document.querySelector('.Radsadorn-Pic').style.backgroundImage="url('./img/Radsadorn.jpg')";
+  document.querySelector('.Radsadorn-Description').innerText="Beginner Developer";
+  document.querySelector('.Radsadorn-Portfolio').attributes[1].nodeValue="https://github.com/radsadorn";
+}
