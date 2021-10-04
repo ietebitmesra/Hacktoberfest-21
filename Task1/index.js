@@ -46,6 +46,14 @@ function mayukh() {
     "https://www.linkedin.com/in/mayukh-pankaj/";
 }
 
+function SubhamSurana() {
+  document.querySelector('.SubhamSurana-name').innerText="Subham Surana";
+  document.querySelector('.SubhamSurana-Bio').innerText="Torture the data long enough and it will confess to anything!";
+  document.querySelector('.SubhamSurana-Pic').style.backgroundImage="url('./img/SubhamSurana.jpg')";
+  document.querySelector('.SubhamSurana-Description').innerText="Data Science & ML/AI Enthusiast";
+  document.querySelector('.SubhamSurana-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/subham-surana/";
+}
+
 function RavishRaj() {
   document.querySelector(".RavishRaj-name").innerText = "Ravish Raj";
   document.querySelector(".RavishRaj-Bio").innerText =
