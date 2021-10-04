@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5" style="display: flex; justify-content: space-between;">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">Hacktober</span>Fest</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#qualification" class="nav-item nav-link">Education</a>
+                <a href="#skill" class="nav-item nav-link">Skill</a>
+                <!-- <a href="#service" class="nav-item nav-link">Service</a> -->
+                <!-- <a href="#portfolio" class="nav-item nav-link">Portfolio</a> -->
+                <!-- <a href="#testimonial" class="nav-item nav-link">Review</a> -->
+                <a href="#blog" class="nav-item nav-link">Project</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="https://shamvi-05.github.io/Shamvi-050801/" class="btn btn-outline-primary d-none d-lg-block">More</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>        
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/profil.jpeg" alt="">
+                </div>
+                <div class="col-lg-7 text-center text-lg-left">
+                    <h3 class="text-white font-weight-normal mb-3">I AM</h3>
+                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">Shambhavi Singh</h1>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                    <div class="typed-text d-none"> A Web Developer, A Competitive Programmer, A Graphic Designer and A Melophile</div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                        <a href="./img/cv.pdf" class="btn btn-outline-light mr-5">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
+                <h1 class="position-absolute text-uppercase text-primary"></h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid rounded w-100" src="img/me.jpeg" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="mb-4">About me</h3>
+                    <p> A Tech-enthusiast and a motivated fresher with an ability to adapt the change in dynamic environment.Always eager to learn new things in a cheerful manner.My hobbies are painting , sketching , listening to music and watching movies.</p>
+                    <div class="row mb-3">
+                        <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Shambhavi Singh</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">5 August,2001</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Undergraduate</span></h6></div>
+                        <!-- <div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary">10 Years</span></h6></div> -->
+                        <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">+91 9835049071</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">shamvi050801@gmail.com</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">Patna,Bihar,India</span></h6></div>
+                        <!-- <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div> -->
+                    </div>
+                    <a href="https://shamvi-05.github.io/Shamvi-050801/" class="btn btn-outline-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Qualification Start -->
+    <div class="container-fluid py-5" id="qualification">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 2px #dee2e6;">Education</h1>
+                <h1 class="position-absolute text-uppercase text-primary" style="-webkit-text-stroke: 2px #63ccbe;"></h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="mb-4">My Education</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Master of science: Mathematics and Computing</h5>
+                            <p class="mb-2"><strong>Birla institute of technology- Mesra, Ranchi</strong> | <small>2020 - 2025</small></p>
+                            <p>9.04 cgpa-till date</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">12th CBSE :</h5>
+                            <p class="mb-2"><strong>Michael's High school- Patna ,Bihar </strong> | <small>2018 - 2020</small></p>
+                            <p>Aggregrate obtained:PCM(90.2 %)</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">10th ICSE</h5>
+                            <p class="mb-2"><strong>Carmel High school- Patna, Bihar</strong> | <small>2006 - 2018</small></p>
+                            <p>Aggregrate obtained: 96.2%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">My Expericence</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">IET- Bit Mesra</h5>
+                            <p class="mb-2"><strong>Member</strong> | <small>2021-present</small></p>
+                            
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Society for Data Science-Bit Mesra</h5>
+                            <p class="mb-2"><strong>Member</strong> | <small>2021-present</small></p>
+                            
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Rotaract Club-Bit Mesra</h5>
+                            <p class="mb-2"><strong>Member</strong> | <small>2021-present</small></p>
+                            
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">National Service Scheme</h5>
+                            <p class="mb-2"><strong>Volunteer</strong> | <small>2021-present</small></p>
+                            
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- Qualification End -->
+
+<br>
+    <!-- Skill Start -->
+    <div class="container-fluid py-5" id="skill">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
+                <h1 class="position-absolute text-uppercase text-primary"></h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">C++</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">HTML</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">CSS</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">JavaScript</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Graphic Designing</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Problem Solving</h6>
+                            <h6 class="font-weight-bold">65%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skill End -->
+
+
+<br>
+
+    <!-- Projects Start -->
+    <div class="container-fluid pt-5" id="blog">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Projects</h1>
+                <h1 class="position-absolute text-uppercase text-primary"></h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-1.jpg" alt="">
+                    </div>
+                    <h5 class="font-weight-medium mb-4"><strong>PERSONAL PORTFOLIO</strong><br><small> A Portfolio built using HTML and CSS.It's a simple and responsive website.</small></h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="https://shamvi-05.github.io/Shamvi-050801/">Read More</a>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-2.jpg" alt="">
+                    </div>
+                    <h5 class="font-weight-medium mb-4"><strong>JOB SCRAPER </strong><br><small>It is used to scrape jobs from different websites.</small></h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="https://github.com/shamvi-05/WEB-SCRAPING-LEAD">Read More</a>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-3.jpg" alt="">
+                    </div>
+                    <h5 class="font-weight-medium mb-4"><strong>A COVID TRACKER</strong><br> <small>A Website built for tracking covid cases.It uses API to fetch Data.</small></h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="https://github.com/shamvi-05/Covid19-API-Tracker">Read More</a>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/game.jpg" alt="">
+                    </div>
+                    <h5 class="font-weight-medium mb-4"><strong>A GAMING WEBSITE</strong><br> <small>A Gaming Website to get you out of your monotonous hectic scheduele :) </small></h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="https://github.com/shamvi-05/Crazy-cabbie">Read More</a>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/ds.jpeg" alt="">
+                    </div>
+                    <h5 class="font-weight-medium mb-4"><strong>DATA SCIENCE MODEL</strong><br> <small>An approach to start with linear and logistic regression .</small></h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="https://github.com/shamvi-05/SDS-Basics-of-python">Read More</a>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/GD.jpg" alt="">
+                    </div>
+                    <h5 class="font-weight-medium mb-4"><strong>My DESIGNS</strong><br> <small>Samples of few of my works</small></h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="https://www.canva.com/design/DAEqDUGq9iQ/slCeOGwMoCCb9T3ugFmX4Q/view?website#2:shambhavi-singh">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+
+<br>
+    <!-- Contact Start -->
+    <div class="container-fluid py-5" id="contact">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
+                <h1 class="position-absolute text-uppercase text-primary"> </h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form text-center">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="form-row">
+                                <div class="control-group col-sm-6">
+                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
+                                        required="required" data-validation-required-message="Please enter your name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group col-sm-6">
+                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
+                                        required="required" data-validation-required-message="Please enter your email" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
+                                    required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
+                                    required="required"
+                                    data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-light btn-social mr-2" href="https://twitter.com/Shambhavi0?s=09"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://github.com/shamvi-05"><i class="fab fa-github"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/shambhavi-singh-4b130a205"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social" href="https://www.instagram.com/shamvi_05/"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="m-0">&copy; All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="#">Shambhavi Singh</a>
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
