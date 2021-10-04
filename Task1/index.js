@@ -491,7 +491,7 @@ function mgomez08() {
 function niraj() {
   document.querySelector('.niraj-name').innerText="Niraj Nadkarni";
   document.querySelector('.niraj-Bio').innerText="Python Programmer";
-  document.querySelector('.niraj-Pic').style.backgroundImage="url('./img/niraj.jpg')";
+  document.querySelector('.niraj-Pic').style.backgroundImage="url('./img/niraj.png')";
   document.querySelector('.niraj-Description').innerText="Python Programmer && Problem Solver";
   document.querySelector('.niraj-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/nirajn/";
 }
