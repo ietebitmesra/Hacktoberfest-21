@@ -460,3 +460,15 @@ function AdityaVerma() {
   document.querySelector('.AdityaVerma-Description').innerText="Full Stack Web Developer.";
   document.querySelector('.AdityaVerma-Portfolio').attributes[1].nodeValue="https://github.com/homewardgamer";
 }
+
+function mgomez08() {
+  document.querySelector(".mgomez08-name").innerText = "mgomez08";
+  document.querySelector(".mgomez08-Bio").innerText =
+    "Passionate about web development and video games";
+  document.querySelector(".mgomez08-Pic").style.backgroundImage =
+    "url('./img/mgomez08.jpg')";
+  document.querySelector(".mgomez08-Description").innerText =
+    "Frontend Developer.";
+  document.querySelector(".mgomez08-Portfolio").attributes[1].nodeValue =
+    "https://mgomez08.github.io/portfolio/";
+}
