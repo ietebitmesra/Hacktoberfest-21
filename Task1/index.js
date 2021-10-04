@@ -495,3 +495,11 @@ function niraj() {
   document.querySelector('.niraj-Description').innerText="Python Programmer && Problem Solver";
   document.querySelector('.niraj-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/nirajn/";
 }
+
+function saugatrimal() {
+  document.querySelector('.saugatrimal-name').innerText="Saugat Rimal";
+  document.querySelector('.saugatrimal-Bio').innerText="👨‍💻𝐂𝐨𝐝𝐞 𝐢𝐬 𝐏𝐨𝐞𝐭𝐫𝐲 𝐃𝐞𝐬𝐢𝐠𝐧 𝐢𝐬 𝐏𝐚𝐬𝐬𝐢𝐨𝐧";
+  document.querySelector('.saugatrimal-Pic').style.backgroundImage="url('./img/saugatrimal.jpg')";
+  document.querySelector('.saugatrimal-Description').innerText="Wordpress Developer";
+  document.querySelector('.saugatrimal-Portfolio').attributes[1].nodeValue="https://www.saugatreemal.engineer/";
+}
