@@ -48,3 +48,10 @@ function HritikChaudhary() {
     document.querySelector('.HritikChaudhary-Description').innerText="Web Developer";
     document.querySelector('.HritikChaudhary-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/hritik-c-0588b999/";
 }
+function Koushiki() {
+  document.querySelector('.Koushiki-name').innerText="Koushiki Chakrabarti";
+  document.querySelector('.Koushiki-Bio').innerText="Still exploring!";
+  document.querySelector('.Koushiki-pic').style.backgroundImage="url('./img/pic.jpeg')";
+  document.querySelector('.Koushiki-Description').innerText="Neophyte!";
+  document.querySelector('.Koushiki-Portfolio').attributes[1].nodeValue="https://kc2409.github.io/portfolio/";
+}
