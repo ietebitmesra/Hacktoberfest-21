@@ -12,7 +12,6 @@
 //MAKE PROPER COMMENTS WHERE-EVER NECESSARY
 
 
-const jokes = document.querySelector('#jokes');
 const form = document.querySelector('#searchForm');
 const resultDiv = document.querySelector('#searchResult')
 
@@ -30,7 +29,14 @@ form.addEventListener('submit', async (e)=>{
     const image = bestMatch.image.medium
     // const premeired = bestMatch.image.medium
     const name = bestMatch.name 
-    
+    const cast_response = await fetch(`https://api.tvmaze.com/shows/${id}/cast`)
+    const cast_data = await cast_response.json();
+    let cast_names = 'Cast : '
+    cast_data.map(getNames)
+    function getNames(value){
+        cast_names = cast_names+value.person.name+", ";
+    }
+    cast_names = cast_names.substring(0,cast_names.length-2)
 
     let rating = "Ratings: "+bestMatch.rating.average;
     let starsLength = Math.floor(bestMatch.rating.average);
@@ -57,7 +63,8 @@ form.addEventListener('submit', async (e)=>{
     p1.innerText = strippedString;
     const p2 = document.createElement('p');
     p2.innerText = strippedString2;
-
+    const cast = document.createElement('cast');
+    cast.innerText = cast_names;
     // STYLE CREATED ELEMENTS HERE
     h1.style.fontSize = '50px';
 
@@ -66,13 +73,18 @@ form.addEventListener('submit', async (e)=>{
     p1.style.fontWeight= '100'
 
     p2.style.fontSize = '20px';
-    
+
+    cast.style.fontFamily = 'Arial, Helvetica, sans-serif'
+    cast.style.fontWeight = '100'
+    cast.style.fontSize = '20px';
+
+
     // APPEND ELEMENTS TO WEB PAGE
     resultDiv.append(img)
     resultDiv.append(h1)
     resultDiv.append(p1)
     resultDiv.append(p2)
-
+    resultDiv.append(cast)
     form.reset();
 })
 
