@@ -1,3 +1,15 @@
+function MayurSojitra() {
+  document.querySelector(".MayurSojitra-name").innerText = "Mayur Sojitra";
+  document.querySelector(".MayurSojitra-Bio").innerText =
+    "Keep Helping, Keep Exploring!!! Tech Explorer";
+  document.querySelector(".MayurSojitra-pic").style.backgroundImage =
+    "url('./img/MayurSojitra.jpg')";
+  document.querySelector(".MayurSojitra-Description").innerText =
+  "Android Dev | Laravel Backend Dev | Tech Speaker | Community Evangelist";
+  document.querySelector(".MayurSojitra-Portfolio").attributes[1].nodeValue =
+    "https://github.com/MayurSojitra";
+}
+
 function AdityaDubey() {
   document.querySelector(".AdityaDubey-name").innerText = "AdityaDubey";
   document.querySelector(".AdityaDubey-Bio").innerText =
