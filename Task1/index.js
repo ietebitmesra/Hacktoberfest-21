@@ -590,6 +590,14 @@ function MohitSinghChauhan() {
   document.querySelector('.MohitSinghChauhan-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/mohit-singh-chauhan-944ba9200/";
 }
 
+function Radsadorn() {
+  document.querySelector('.Radsadorn-name').innerText="Sutthirat Phutho";
+  document.querySelector('.Radsadorn-Bio').innerText="Computer Engineering, KMITL THAILAND";
+  document.querySelector('.Radsadorn-Pic').style.backgroundImage="url('./img/Radsadorn.jpg')";
+  document.querySelector('.Radsadorn-Description').innerText="Beginner Developer";
+  document.querySelector('.Radsadorn-Portfolio').attributes[1].nodeValue="https://github.com/radsadorn";
+}
+
 function VivekPattanayak() {
   document.querySelector('.VivekPattanayak-name').innerText="Vivek Pattanayak";
   document.querySelector('.VivekPattanayak-Bio').innerText="Solving old bugs and making new ones along the way 👾";
