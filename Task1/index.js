@@ -503,3 +503,12 @@ function saugatrimal() {
   document.querySelector('.saugatrimal-Description').innerText="Wordpress Developer";
   document.querySelector('.saugatrimal-Portfolio').attributes[1].nodeValue="https://www.saugatreemal.engineer/";
 }
+
+
+function PulkitRanjan() {
+  document.querySelector('.PulkitRanjan-name').innerText="Pulkit Ranjan";
+  document.querySelector('.PulkitRanjan-Bio').innerText="Do Epic Shit !";
+  document.querySelector('.PulkitRanjan-Pic').style.backgroundImage="url('./img/PulkitRanjan.jpg')";
+  document.querySelector('.PulkitRanjan-Description').innerText="Web Developer | CP";
+  document.querySelector('.PulkitRanjan-Portfolio').attributes[1].nodeValue="https://pulkit2910-bit.github.io/MyPortfolio/";
+}
