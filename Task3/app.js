@@ -12,7 +12,6 @@
 //MAKE PROPER COMMENTS WHERE-EVER NECESSARY
 
 
-const jokes = document.querySelector('#jokes');
 const form = document.querySelector('#searchForm');
 const resultDiv = document.querySelector('#searchResult')
 
