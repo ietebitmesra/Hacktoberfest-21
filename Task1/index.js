@@ -1,3 +1,17 @@
+function AdityaDubey() {
+  document.querySelector(".AdityaDubey-name").innerText = "AdityaDubey";
+  document.querySelector(".AdityaDubey-Bio").innerText =
+    "Strive until you succeed";
+  document.querySelector(".AdityaDubey-Pic").style.backgroundImage =
+    "url('./img/AD.jpg')";
+  document.querySelector(".AdityaDubey-Description").innerText =
+    "Competitive Programmer";
+  document.querySelector(".AdityaDubey-Portfolio").attributes[1].nodeValue =
+    "https://www.linkedin.com/in/dubeyaditya6232/";
+}
+
+// style="background-image: url('./img/SHIVAM1422000.jpg')"
+
 function SHIVAM1422000() {
   document.querySelector(".SHIVAM1422000-name").innerText = "Shivam Ojha";
   document.querySelector(".SHIVAM1422000-Bio").innerText =
@@ -137,15 +151,15 @@ function Aryan() {
     "https://aryan0472.github.io/Portfolio/";
 }
 
-function PrabalJain() {
-  document.querySelector(".PrabalJain-name").innerText = "Prabal Jain";
-  document.querySelector(".PrabalJain-Bio").innerText = "Stay Focused";
-  document.querySelector(".PrabalJain-Pic").style.backgroundImage =
-    "url('./img/PrabalJain.jpg')";
-  document.querySelector(".PrabalJain-Description").innerText =
+function niraj() {
+  document.querySelector(".niraj-name").innerText = "Prabal Jain";
+  document.querySelector(".niraj-Bio").innerText = "Stay Focused";
+  document.querySelector(".niraj-Pic").style.backgroundImage =
+    "url('./img/niraj.jpg')";
+  document.querySelector(".niraj-Description").innerText =
     "Python Programmer && Problem Solver";
-  document.querySelector(".PrabalJain-Portfolio").attributes[1].nodeValue =
-    "https://www.linkedin.com/in/prabaljainn/";
+  document.querySelector(".niraj-Portfolio").attributes[1].nodeValue =
+    "https://www.linkedin.com/in/nirajn/";
 }
 
 function IamLucif3r() {
@@ -471,4 +485,13 @@ function mgomez08() {
     "Frontend Developer.";
   document.querySelector(".mgomez08-Portfolio").attributes[1].nodeValue =
     "https://mgomez08.github.io/portfolio/";
+}
+
+
+function niraj() {
+  document.querySelector('.niraj-name').innerText="Niraj Nadkarni";
+  document.querySelector('.niraj-Bio').innerText="Python Programmer";
+  document.querySelector('.niraj-Pic').style.backgroundImage="url('./img/niraj.jpg')";
+  document.querySelector('.niraj-Description').innerText="Python Programmer && Problem Solver";
+  document.querySelector('.niraj-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/nirajn/";
 }
