@@ -556,3 +556,11 @@ function MohitSinghChauhan() {
   document.querySelector('.MohitSinghChauhan-Description').innerText="Building things && Problem Solving is my coffee ✔️";
   document.querySelector('.MohitSinghChauhan-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/mohit-singh-chauhan-944ba9200/";
 }
+
+function Shreya() {
+  document.querySelector('.Shreya-name').innerText="Shreya Sharma";
+  document.querySelector('.Shreya-Bio').innerText="DSA | problem solving";
+  document.querySelector('.Shreya-Pic').style.backgroundImage="url('./img/Shreya.jpg')";
+  document.querySelector('.Shreya-Description').innerText="Exploring...";
+  document.querySelector('.Shreya-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/shreya-sharma-9878a620b/";
+}
