@@ -503,3 +503,11 @@ function saugatrimal() {
   document.querySelector('.saugatrimal-Description').innerText="Wordpress Developer";
   document.querySelector('.saugatrimal-Portfolio').attributes[1].nodeValue="https://www.saugatreemal.engineer/";
 }
+
+function MohitSinghChauhan() {
+  document.querySelector('.MohitSinghChauhan-name').innerText="Mohit Singh Chauhan";
+  document.querySelector('.MohitSinghChauhan-Bio').innerText="JS is my 2nd Love 💖";
+  document.querySelector('.MohitSinghChauhan-Pic').style.backgroundImage="url('./img/MohitSinghChauhan.jpg')";
+  document.querySelector('.MohitSinghChauhan-Description').innerText="Building things && Problem Solving is my coffee ✔️";
+  document.querySelector('.MohitSinghChauhan-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/mohit-singh-chauhan-944ba9200/";
+}
