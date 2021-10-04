@@ -505,3 +505,10 @@ function niraj() {
   document.querySelector('.niraj-Description').innerText="Python Programmer && Problem Solver";
   document.querySelector('.niraj-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/nirajn/";
 }
+function Koushiki() {
+  document.querySelector('.Koushiki-name').innerText="Koushiki Chakrabarti";
+  document.querySelector('.Koushiki-Bio').innerText="Still exploring!";
+  document.querySelector('.Koushiki-pic').style.backgroundImage="url('./img/pic.jpeg')";
+  document.querySelector('.Koushiki-Description').innerText="Neophyte!";
+  document.querySelector('.Koushiki-Portfolio').attributes[1].nodeValue="https://kc2409.github.io/portfolio/";
+}
