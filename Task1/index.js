@@ -556,3 +556,11 @@ function MohitSinghChauhan() {
   document.querySelector('.MohitSinghChauhan-Description').innerText="Building things && Problem Solving is my coffee ✔️";
   document.querySelector('.MohitSinghChauhan-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/mohit-singh-chauhan-944ba9200/";
 }
+
+function VivekPattanayak() {
+  document.querySelector('.VivekPattanayak-name').innerText="Vivek Pattanayak";
+  document.querySelector('.VivekPattanayak-Bio').innerText="Solving old bugs and making new ones along the way 👾";
+  document.querySelector('.VivekPattanayak-Pic').style.backgroundImage="url('./img/VivekPattanayak.jpg')";
+  document.querySelector('.VivekPattanayak-Description').innerText="Competitive Programmer | App Developer";
+  document.querySelector('.VivekPattanayak-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/vivek-pattanayak-8225021a0/";
+}
