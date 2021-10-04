@@ -37,7 +37,6 @@ button#searchBtn {
 .searchIcon {
   font-size: 1.5em;
   font-weight: 400;
-
 }
 
 @media (max-width: 979px) {
@@ -46,9 +45,8 @@ button#searchBtn {
   }
 }
 .navbar{
-    background-color: #2D6967 ;
+  background-color: #2D6967 ;
 }
-
 .navbar-brand{
   color: white;
 }
