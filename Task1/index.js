@@ -613,3 +613,11 @@ function Shreya() {
   document.querySelector('.Shreya-Description').innerText="Exploring...";
   document.querySelector('.Shreya-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/shreya-sharma-9878a620b/";
 }
+
+function BryantRichards() {
+    document.querySelector('.BryantRichards-name').innerText="Bryant Richards";
+    document.querySelector('.BryantRichards-Bio').innerText="Full Stack Developer";
+    document.querySelector('.BryantRichards-Pic').style.backgroundImage="url('./img/BryantRichards.jpg')";
+    document.querySelector('.BryantRichards-Description').innerText="Full time programmer, part time ninja";
+    document.querySelector('.BryantRichards-Portfolio').attributes[1].nodeValue="https://github.com/BryantIT";
+}
