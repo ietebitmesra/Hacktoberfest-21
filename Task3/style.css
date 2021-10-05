@@ -1,15 +1,12 @@
 /* USE BETTER COLOUR COMBINATIONS :D */
 /* Give proper spacing and styling to components */
 /* Use Proper Fonts */
-body {
-  padding-top: 70px;
-  margin: 0;
-  background-color: #2D6967 ;
-}
+
 
 a.logo {
+  padding-left: 15px;
   font-size: 2.5em;
-  font-family: 'Dancing Script', cursive;
+  font-familY:-moz-range-thumb;
 }
 
 form#searchForm {
@@ -20,11 +17,14 @@ form#searchForm {
   justify-content: center;
   align-items: center;
 }
-
 input#searchText {
   width: 60%;
   padding: 15px;
   border-radius: 30px;
+}
+
+form.searchBar_pos1 input::-webkit-search-cancel-button{
+  visibility:hidden;
 }
 
 button#searchBtn {
@@ -45,7 +45,7 @@ button#searchBtn {
   }
 }
 .navbar{
-  background-color: #2D6967 ;
+  background-color:black ;
 }
 .navbar-brand{
   color: white;
@@ -57,28 +57,26 @@ button#searchBtn {
 
 .main-area{
   display: flex;
-  height: 80vh;
+  height: 100vh;
 }
 
 #searchBar{
-  margin-top: 20vh;
+  margin-top: 10vh;
+  padding-top: 40px;
 }
 
 .container1{
 height: 90%;
 width: 90%;
-margin: 40px;
+margin: 60px;
+margin-bottom: 0px;
 padding: 30px;
-border-radius: 40px;
-border-style: solid;
-border-color: black;
 }
 
 .container-fluid{
 height: 90%;
 width: 90%;
-margin-top: 40px;
-padding: 30px;
+padding: 0px;
 border-radius: 40px;
 background:  #e6e7ee; 
 box-shadow: 3px 3px 6px #b8b9be,-3px -3px 6px #fff;
