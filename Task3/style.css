@@ -93,6 +93,12 @@ margin-top: 20px;
 /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
 }
 
+.card:hover{
+background-color: #0ca9f1;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+cursor: pointer;
+}
+
 .card-img, .card-img-top{
 border-radius: 20px;
 }
