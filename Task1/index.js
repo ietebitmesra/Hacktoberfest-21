@@ -613,3 +613,10 @@ function Shreya() {
   document.querySelector('.Shreya-Description').innerText="Exploring...";
   document.querySelector('.Shreya-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/shreya-sharma-9878a620b/";
 }
+function BundAgarwal() {
+  document.querySelector('.Bund-name').innerText="Bund Agarwal";
+  document.querySelector('.Bund-Bio').innerText="Things aren't always #000000 and #FFFFFF";
+  document.querySelector('.Bund-Pic').style.backgroundImage="url('./img/bund.jpg')";
+  document.querySelector('.Bund-Description').innerText="Student|Developer";
+  document.querySelector('.Bund-Portfolio').attributes[1].nodeValue="#";
+}
