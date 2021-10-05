@@ -562,15 +562,20 @@ function niraj() {
 }
 
 function saugatrimal() {
-  document.querySelector(".saugatrimal-name").innerText = "Saugat Rimal";
-  document.querySelector(".saugatrimal-Bio").innerText =
-    "👨‍💻𝐂𝐨𝐝𝐞 𝐢𝐬 𝐏𝐨𝐞𝐭𝐫𝐲 𝐃𝐞𝐬𝐢𝐠𝐧 𝐢𝐬 𝐏𝐚𝐬𝐬𝐢𝐨𝐧";
-  document.querySelector(".saugatrimal-Pic").style.backgroundImage =
-    "url('./img/saugatrimal.jpg')";
-  document.querySelector(".saugatrimal-Description").innerText =
-    "Wordpress Developer";
-  document.querySelector(".saugatrimal-Portfolio").attributes[1].nodeValue =
-    "https://www.saugatreemal.engineer/";
+  document.querySelector('.saugatrimal-name').innerText="Saugat Rimal";
+  document.querySelector('.saugatrimal-Bio').innerText="👨‍💻𝐂𝐨𝐝𝐞 𝐢𝐬 𝐏𝐨𝐞𝐭𝐫𝐲 𝐃𝐞𝐬𝐢𝐠𝐧 𝐢𝐬 𝐏𝐚𝐬𝐬𝐢𝐨𝐧";
+  document.querySelector('.saugatrimal-Pic').style.backgroundImage="url('./img/saugatrimal.jpg')";
+  document.querySelector('.saugatrimal-Description').innerText="Wordpress Developer";
+  document.querySelector('.saugatrimal-Portfolio').attributes[1].nodeValue="https://www.saugatreemal.engineer/";
+}
+
+
+function PulkitRanjan() {
+  document.querySelector('.PulkitRanjan-name').innerText="Pulkit Ranjan";
+  document.querySelector('.PulkitRanjan-Bio').innerText="Do Epic Shit !";
+  document.querySelector('.PulkitRanjan-Pic').style.backgroundImage="url('./img/PulkitRanjan.jpg')";
+  document.querySelector('.PulkitRanjan-Description').innerText="Web Developer | CP";
+  document.querySelector('.PulkitRanjan-Portfolio').attributes[1].nodeValue="https://pulkit2910-bit.github.io/MyPortfolio/";
 }
 function Koushiki() {
   document.querySelector(".Koushiki-name").innerText = "Koushiki Chakrabarti";
@@ -619,4 +624,13 @@ function GeorgeEmmanuelThomas() {
     document.querySelector('.GeorgeEmmanuelThomas-Pic').style.backgroundImage="url('./img/GeorgeEmmanuelThomas.jpg')";
     document.querySelector('.GeorgeEmmanuelThomas-Description').innerText="Student Developer | Android Developer";
     document.querySelector('.GeorgeEmmanuelThomas-Portfolio').attributes[1].nodeValue="https://www.github.com/GeorgeET15/";
+}
+
+function SushantBarje() {
+    document.querySelector('.SushantBarje-name').innerText="Sushant Barje";
+    document.querySelector('.SushantBarje-Bio').innerText="Blockchain Enthusiast | Love to Code | Web Development";
+    document.querySelector('.SushantBarje-Pic').style.backgroundImage="url('./img/SushantBarje.jpg')";
+    document.querySelector('.SushantBarje-Description').innerText="C++ Programmer & Web Developer";
+    document.querySelector('.SushantBarje-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/sushant-barje-322761168/";
+
 }
