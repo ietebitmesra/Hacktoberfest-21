@@ -2,12 +2,17 @@ body {
     padding-top: 70px;
     margin: 0;
     background-color: rgb(31, 177, 139);
+    font-size: 20px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
   }
+
   @media (max-width: 979px) {
     body {
       padding-top: 0px;
     }
   }
+
 .navbar{
     background-color: rgb(31, 177, 139);
 }
@@ -20,11 +25,41 @@ body {
     color: white;
 }
 
-.main-area{
+/* .main-area{
     display: flex;
     height: 80vh;
-}
+} */
 
 #searchBar{
-    margin-top: 20vh;
+    margin: 20vh auto 5vh;
+}
+
+#searchForm{
+  margin: 0 auto;
+  width: 32%;
+  background-color: white;
+  border-radius: 2rem;
+  overflow: hidden;
+  padding: 1rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#submitBtn{
+  background: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#searchText{
+  outline: none;
+  border: none;
+  font-size: 19px;
+  font-weight: bold;
+  flex: 1;
+}
+
+#user-icon{
+  font-size: 2rem;
 }
