@@ -14,10 +14,7 @@
 
 
 const form = document.querySelector('#searchForm');
-const resultDiv = document.querySelector('#searchResult');
-const popularShows = document.querySelectorAll('.card');
-const popularshowNames = document.querySelectorAll('h5.card-title');
-const searchBtn = document.querySelector('#searchBtn');
+const resultDiv = document.querySelector('#main-info')
 
 //FORM SUBMISSION EVENT LISTENER
 form.addEventListener('submit', async (e)=>{
@@ -95,12 +92,17 @@ form.addEventListener('submit', async (e)=>{
     resultDiv.append(p1)
     resultDiv.append(p2)
     resultDiv.append(cast)
+    showSecInfo();
     form.reset();
 })
 
 const popShowSection = document.querySelector("#popular-shows")
+const secInfo = document.querySelector("#sec-info")
 
 const pop_show_hide = ()=>{
     popShowSection.classList.add('hidden');
 }
 
+const showSecInfo = ()=>{
+    secInfo.classList.remove('hidden')
+}
