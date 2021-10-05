@@ -52,6 +52,8 @@ form.addEventListener('submit', async (e)=>{
     let strippedString = summary.replace(/(<([^>]+)>)/gi, "");
     let strippedString2 = rating.replace(/(<([^>]+)>)/gi, "");
 
+    // Hiding popular shows section
+        pop_show_hide();
 
  
     // CREATE DOM ELEMENTS HERE
@@ -77,6 +79,8 @@ form.addEventListener('submit', async (e)=>{
     cast.style.fontFamily = 'Arial, Helvetica, sans-serif'
     cast.style.fontWeight = '100'
     cast.style.fontSize = '20px';
+    cast.style.display = 'block'
+    cast.style.fontColor = "white"
 
 
     // APPEND ELEMENTS TO WEB PAGE
@@ -88,4 +92,9 @@ form.addEventListener('submit', async (e)=>{
     form.reset();
 })
 
+const popShowSection = document.querySelector("#popular-shows")
+
+const pop_show_hide = ()=>{
+    popShowSection.classList.add('hidden');
+}
 
