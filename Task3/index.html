@@ -71,12 +71,6 @@
       </div>
       
     </header>
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/main.js"></script>
-
     <section>
        
     <form id="searchForm" class="searchBar_pos1" name="query">
@@ -165,10 +159,64 @@
    </section>
 
    <section id="searchResult">
+    <div id="main-info">
 
+    </div>
+    <div id="sec-info" class="hidden">
+        <ul style="list-style: none;" id="sec-ul">
+          <li class="active-b"><a href="#"><span>Episodes</span></a></li>
+          <li><a href="#"><span>Seasons</span></a></li>
+          <li><a href="#"><span>Cast</span></a></li>
+        </ul>
+        <table style="width: 70%;">
+          <tbody>
+            <tr>
+              <th>Number</th>
+              <th>Date</th>
+              <th>Name</th>
+              <th>Score</th>
+            </tr>
+            <tr>
+              <td style="width: 13%;">1</td>
+              <td style="width:20%;">11/11/11</td>
+              <td style="width: 50%">Episode name</td>
+              <td style="width: 17%;">9.0 ⭐️</td>
+            </tr>
+            <tr>
+              <td style="width: 13%;">2</td>
+              <td style="width:20%px;">11/11/11</td>
+              <td style="width: 50%">Episode name</td>
+              <td style="width: 17%;">8.3 ⭐️</td>
+            </tr>
+            <tr>
+              <td style="width: 13%;">3</td>
+              <td style="width:20%px;">11/11/11</td>
+              <td style="width: 50%">Episode name</td>
+              <td style="width: 17%;">7.2 ⭐️</td>
+            </tr>
+            <tr>
+              <td style="width: 13%;">4</td>
+              <td style="width:20%px;">11/11/11</td>
+              <td style="width: 50%">Episode name</td>
+              <td style="width: 17%;">8.6 ⭐️</td>
+            </tr>
+            <tr>
+              <td style="width: 13%;">5</td>
+              <td style="width:20%px;">11/11/11</td>
+              <td style="width: 50%">Episode name</td>
+              <td style="width: 17%;">9.2 ⭐️</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
    </section>
 
    <script src="app.js"></script>
+   <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/main.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.4/axios.min.js" integrity="sha512-lTLt+W7MrmDfKam+r3D2LURu0F47a3QaW5nF0c6Hl0JDZ57ruei+ovbg7BrZ+0bjVJ5YgzsAWE+RreERbpPE1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </body>
 </html>

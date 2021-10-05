@@ -105,7 +105,7 @@ border-radius: 20px;
 
 .card-img-top {
     width: 100%;
-    height: 290px;
+    height: 280px;
     object-fit: cover;
 }
 #searchForm{
@@ -118,5 +118,38 @@ border-radius: 20px;
 
 #searchResult{
   margin: 20px;
-  padding: 20px;
+  padding: 20px
+}
+
+#sec-ul li{
+  display: inline;
+  margin-right: 30px;
+}
+#sec-ul li a{
+  color: #fff;
+}
+
+#sec-ul li a:hover{
+  background-color: #007bff;
+  border-radius: 30px;
+  padding: 5px 20px;
+}
+
+.active-b{
+  background-color: #007bff;
+  border-radius: 30px;
+  padding: 5px 20px;
+}
+
+table{
+  margin-top: 35px;
+}
+
+td, th{
+  border: 1px solid white;
+  color: #b3b3b3;
+}
+
+#sec-info{
+  margin-top:50px;
 }
