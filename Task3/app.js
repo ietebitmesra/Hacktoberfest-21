@@ -12,17 +12,21 @@
 //MAKE PROPER COMMENTS WHERE-EVER NECESSARY
 
 
+
 const form = document.querySelector('#searchForm');
-const resultDiv = document.querySelector('#searchResult')
+const resultDiv = document.querySelector('#searchResult');
+const popularShows = document.querySelectorAll('.card');
+const popularshowNames = document.querySelectorAll('h5.card-title');
+const searchBtn = document.querySelector('#searchBtn');
 
 //FORM SUBMISSION EVENT LISTENER
 form.addEventListener('submit', async (e)=>{
     e.preventDefault();
     // API CALL
     const searchTerm = document.querySelector('#searchText').value;
-    const res = await axios.get(`https://api.tvmaze.com/search/shows?q=${searchTerm}`)
-    console.log(res)
-    const bestMatch = res.data[0].show
+    const res = await axios.get(`https://api.tvmaze.com/search/shows?q=${searchTerm}`);
+    console.log(res);
+    const bestMatch = res.data[0].show;
 
     // ALL API DATA
     const id = bestMatch.id;
@@ -57,8 +61,10 @@ form.addEventListener('submit', async (e)=>{
     // CREATE DOM ELEMENTS HERE
     const img = document.createElement('IMG');    
     img.src = image;
+    img.style.textAlign = 'center';
     const h1 = document.createElement('H1');
     h1.innerText = name;
+    h1.style.textAlign = 'center';
     const p1 = document.createElement('p');
     p1.innerText = strippedString;
     const p2 = document.createElement('p');
