@@ -28,9 +28,13 @@ form#searchForm {
 
 input#searchText {
   /* width: 60%; */
-  border: none;
-  width: 100%;
+/*     border: none;
+    width: 100%; */
   /* border-radius: 30px; */
+  width: 60%;
+  padding: 15px;
+  border-radius: 30px;
+  outline: none;
 }
 
 button#searchBtn {
