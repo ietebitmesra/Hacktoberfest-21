@@ -624,5 +624,13 @@ function GeorgeEmmanuelThomas() {
     document.querySelector('.GeorgeEmmanuelThomas-Pic').style.backgroundImage="url('./img/GeorgeEmmanuelThomas.jpg')";
     document.querySelector('.GeorgeEmmanuelThomas-Description').innerText="Student Developer | Android Developer";
     document.querySelector('.GeorgeEmmanuelThomas-Portfolio').attributes[1].nodeValue="https://www.github.com/GeorgeET15/";
+}
+
+function SushantBarje() {
+    document.querySelector('.SushantBarje-name').innerText="Sushant Barje";
+    document.querySelector('.SushantBarje-Bio').innerText="Blockchain Enthusiast | Love to Code | Web Development";
+    document.querySelector('.SushantBarje-Pic').style.backgroundImage="url('./img/SushantBarje.jpg')";
+    document.querySelector('.SushantBarje-Description').innerText="C++ Programmer & Web Developer";
+    document.querySelector('.SushantBarje-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/sushant-barje-322761168/";
 
 }
