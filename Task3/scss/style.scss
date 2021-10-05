@@ -58,9 +58,9 @@ a {
 .site-navbar {
 
 	margin-bottom: 0px;
-	z-index: 1999;
-	position: absolute;
-	top: 2rem;
+	/* z-index: 1999; */
+	position: relative;
+	margin-top: 2rem;
 	width: 100%;
 	
 	&.transparent {
