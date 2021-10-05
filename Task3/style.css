@@ -2,7 +2,9 @@
 /* Give proper spacing and styling to components */
 /* Use Proper Fonts */
 
-
+body {
+  background-color: #2dc5c0 ;
+}
 a.logo {
   padding-left: 15px;
   font-size: 2.5em;
