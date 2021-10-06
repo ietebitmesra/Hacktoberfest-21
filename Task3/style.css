@@ -2,7 +2,7 @@
 /* Give proper spacing and styling to components */
 /* Use Proper Fonts */
 body {
-  padding-top: 70px;
+  padding-top: 1rem;
   margin: 0;
   background-color: #2D6967 ;
   height: auto;
@@ -14,18 +14,25 @@ a.logo {
 }
 
 form#searchForm {
-  width: 100%;
-  height: 100px;
-  padding: 10px;
+  width: 55%;
+  /* height: 100px; */
+  padding: 10px 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin: 2rem auto 0;
+  background: white;
+  border-radius: 2rem;
+  overflow: hidden;
 }
 
 input#searchText {
-  width: 60%;
-  padding: 15px;
+  /* width: 60%; */
+    border: none;
+    width: 100%;
   border-radius: 30px;
+  padding: 7px;
+  outline: none;
 }
 
 input#searchText:hover {
@@ -34,8 +41,7 @@ input#searchText:hover {
 }
 
 button#searchBtn {
-  position: relative;
-  right: 50px;
+  outline: none;
   background: inherit;
   border: none;
 }
@@ -73,7 +79,7 @@ button#searchBtn {
 .container1{
 height: 90%;
 width: 90%;
-margin: 40px;
+margin: 40px auto;
 padding: 30px;
 border-radius: 40px;
 border-style: solid;
@@ -94,7 +100,7 @@ box-shadow: 3px 3px 6px #b8b9be,-3px -3px 6px #fff;
 border-radius: 20px;
 /* box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff; */
 background-color: #48A9A6;
-margin-top: 20px;
+margin: 20px auto 0;
 /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
 }
 
@@ -111,12 +117,13 @@ border-radius: 20px;
 
 .card-img-top {
     width: 100%;
-    height: 290px;
+    height: 280px;
     object-fit: cover;
 }
-#searchForm{
+
+/* #searchForm{
   margin-top:50px;
-}
+} */
 
 .hidden{
   display: none;
@@ -124,5 +131,56 @@ border-radius: 20px;
 
 #searchResult{
   margin: 20px;
-  padding: 20px;
+  padding: 20px
+}
+
+#sec-ul li{
+  display: inline;
+  margin-right: 30px;
+}
+#sec-ul li a{
+  color: #fff;
+}
+
+#sec-ul li a:hover{
+  background-color: #007bff;
+  border-radius: 30px;
+  padding: 5px 20px;
+}
+
+.active-b{
+  background-color: #007bff;
+  border-radius: 30px;
+  padding: 5px 20px;
+}
+
+table{
+  margin-top: 35px;
+}
+
+td, th{
+  border: 1px solid white;
+  color: #b3b3b3;
+}
+
+#sec-info{
+  margin-top:50px;
+}
+
+.container .head-row {
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+@media (max-width: 979px) {
+  .container .head-row {
+    justify-content: flex-start;
+    margin: 0 20px;
+    }
+
+    form#searchForm {
+      width: 80%;
+    }
 }
