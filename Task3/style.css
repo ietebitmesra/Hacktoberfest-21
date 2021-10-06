@@ -28,6 +28,11 @@ input#searchText {
   border-radius: 30px;
 }
 
+input#searchText:hover {
+  border: 6px solid #48A9A6;
+  transition: all 0.3s;
+}
+
 button#searchBtn {
   position: relative;
   right: 50px;
@@ -61,8 +66,8 @@ button#searchBtn {
   height: 80vh;
 }
 
-#searchBar{
-  margin-top: 20vh;
+#searchText{
+  border: none;
 }
 
 .container1{
@@ -91,6 +96,13 @@ border-radius: 20px;
 background-color: #48A9A6;
 margin-top: 20px;
 /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+}
+
+.card:hover {
+  color: white;
+  background-color: #00aeff;
+  cursor: pointer;
+  transition: color 0.5s;
 }
 
 .card-img, .card-img-top{
