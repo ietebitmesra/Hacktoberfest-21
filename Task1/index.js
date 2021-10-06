@@ -22,6 +22,15 @@ function AdityaDubey() {
     "https://www.linkedin.com/in/dubeyaditya6232/";
 }
 
+function Abhijeet() {
+  document.querySelector('.Abhijeet-name').innerText="Abhijeet";
+  document.querySelector('.Abhijeet-Bio').innerText="web developer";
+  document.querySelector('.Abhijeet-Pic').style.backgroundImage="url('./img/Abhijeet.jpeg')";
+  document.querySelector('.Abhijeet-Description').innerText="A Passionate Web Developer";
+  document.querySelector('.Abhijeet-Portfolio').attributes[1].nodeValue="https://github.com/abhijeettripathi-rgb";
+}
+
+
 // style="background-image: url('./img/SHIVAM1422000.jpg')"
 
 function SHIVAM1422000() {
