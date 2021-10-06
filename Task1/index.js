@@ -556,3 +556,14 @@ function MohitSinghChauhan() {
   document.querySelector('.MohitSinghChauhan-Description').innerText="Building things && Problem Solving is my coffee ✔️";
   document.querySelector('.MohitSinghChauhan-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/mohit-singh-chauhan-944ba9200/";
 }
+
+
+
+function Siddharth() {
+    document.querySelector('.Siddharth-name').innerText="Siddharth";
+    document.querySelector('.Siddharth-Bio').innerText="Python,JS,C++,C,JAVS Programmer";
+    document.querySelector('.Siddharth-Pic').style.backgroundImage="url('./img/Siddharth.jpg')";
+    document.querySelector('.Siddharth-Description').innerText="Python Programmer && Problem Solver";
+    document.querySelector('.Siddharth-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/siddharth-gupta-0bb0831b5/";
+}
+
