@@ -523,7 +523,6 @@ function SiddharthG() {
   document.querySelector('.SiddharthG-Description').innerText="Python Programmer && Problem Solver";
   document.querySelector('.SiddharthG-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/siddharth-gupta-0bb0831b5/";
 }
-
 function niraj() {
   document.querySelector(".niraj-name").innerText = "Niraj Nadkarni";
   document.querySelector(".niraj-Bio").innerText = "Python Programmer";
@@ -555,7 +554,6 @@ function Koushiki() {
   document.querySelector(".Koushiki-Portfolio").attributes[1].nodeValue =
     "https://kc2409.github.io/portfolio/";
 }
-
 function MohitSinghChauhan() {
   document.querySelector('.MohitSinghChauhan-name').innerText="Mohit Singh Chauhan";
   document.querySelector('.MohitSinghChauhan-Bio').innerText="JS is my 2nd Love 💖";
