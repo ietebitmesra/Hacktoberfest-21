@@ -516,6 +516,13 @@ function mgomez08() {
   document.querySelector(".mgomez08-Portfolio").attributes[1].nodeValue =
     "https://mgomez08.github.io/portfolio/";
 }
+function Siddharth() {
+  document.querySelector('.Siddharth-name').innerText="Siddharth";
+  document.querySelector('.Siddharth-Bio').innerText="Python,JS,C++,C,JAVA Programmer";
+  document.querySelector('.Siddharth-Pic').style.backgroundImage="url('./img/Siddharth.jpg')";
+  document.querySelector('.Siddharth-Description').innerText="Python Programmer && Problem Solver";
+  document.querySelector('.Siddharth-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/siddharth-gupta-0bb0831b5/";
+}
 
 function niraj() {
   document.querySelector(".niraj-name").innerText = "Niraj Nadkarni";
@@ -557,13 +564,4 @@ function MohitSinghChauhan() {
   document.querySelector('.MohitSinghChauhan-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/mohit-singh-chauhan-944ba9200/";
 }
 
-
-
-function Siddharth() {
-    document.querySelector('.Siddharth-name').innerText="Siddharth";
-    document.querySelector('.Siddharth-Bio').innerText="Python,JS,C++,C,JAVS Programmer";
-    document.querySelector('.Siddharth-Pic').style.backgroundImage="url('./img/Siddharth.jpg')";
-    document.querySelector('.Siddharth-Description').innerText="Python Programmer && Problem Solver";
-    document.querySelector('.Siddharth-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/siddharth-gupta-0bb0831b5/";
-}
 
