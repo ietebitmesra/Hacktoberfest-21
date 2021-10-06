@@ -634,3 +634,11 @@ function SushantBarje() {
     document.querySelector('.SushantBarje-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/sushant-barje-322761168/";
 
 }
+
+function AkashDip() {
+    document.querySelector('.AkashDip-name').innerText="Akash Dip";
+    document.querySelector('.AkashDip-Bio').innerText="Developer | Cyber Sec";
+    document.querySelector('.AkashDip-Pic').style.backgroundImage="url('./img/AkashDip.jpg')";
+    document.querySelector('.AkashDip-Description').innerText="Developer & Cyber Security";
+    document.querySelector('.AkashDip-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/akashdip/";
+}
