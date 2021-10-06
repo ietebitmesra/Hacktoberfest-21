@@ -561,5 +561,3 @@ function MohitSinghChauhan() {
   document.querySelector('.MohitSinghChauhan-Description').innerText="Building things && Problem Solving is my coffee ✔️";
   document.querySelector('.MohitSinghChauhan-Portfolio').attributes[1].nodeValue="https://www.linkedin.com/in/mohit-singh-chauhan-944ba9200/";
 }
-
-
