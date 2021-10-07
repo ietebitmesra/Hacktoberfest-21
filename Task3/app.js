@@ -13,7 +13,7 @@
 
 
 const form = document.querySelector('#searchForm');
-const resultDiv = document.querySelector('#searchResult')
+const resultDiv = document.querySelector('#main-info')
 
 //FORM SUBMISSION EVENT LISTENER
 form.addEventListener('submit', async (e)=>{
@@ -52,6 +52,8 @@ form.addEventListener('submit', async (e)=>{
     let strippedString = summary.replace(/(<([^>]+)>)/gi, "");
     let strippedString2 = rating.replace(/(<([^>]+)>)/gi, "");
 
+    // Hiding popular shows section
+        pop_show_hide();
 
  
     // CREATE DOM ELEMENTS HERE
@@ -77,6 +79,8 @@ form.addEventListener('submit', async (e)=>{
     cast.style.fontFamily = 'Arial, Helvetica, sans-serif'
     cast.style.fontWeight = '100'
     cast.style.fontSize = '20px';
+    cast.style.display = 'block'
+    cast.style.fontColor = "white"
 
 
     // APPEND ELEMENTS TO WEB PAGE
@@ -85,7 +89,17 @@ form.addEventListener('submit', async (e)=>{
     resultDiv.append(p1)
     resultDiv.append(p2)
     resultDiv.append(cast)
+    showSecInfo();
     form.reset();
 })
 
+const popShowSection = document.querySelector("#popular-shows")
+const secInfo = document.querySelector("#sec-info")
 
+const pop_show_hide = ()=>{
+    popShowSection.classList.add('hidden');
+}
+
+const showSecInfo = ()=>{
+    secInfo.classList.remove('hidden')
+}
